@@ -1,0 +1,44 @@
+K means is better than GMM with $p-value = 5.062465058229476e-05 << 0.05$
+K means is better than Fuzzy C Means with $p-value = 1.503198744745129e-08 << 0.05$
+K means is better than Spectral with $p-value = 1.7666404129814398e-05 << 0.05$
+better than: 3
+GMM is better than Fuzzy C Means with $p-value = 5.303094424511439e-07 << 0.05$
+better than: 1
+better than: 0
+ward is better than K means with $p-value = 1.6593488538126098e-09 << 0.05$
+ward is better than GMM with $p-value = 3.8944782046822065e-09 << 0.05$
+ward is better than Fuzzy C Means with $p-value = 3.3761426760603268e-09 << 0.05$
+ward is better than Spectral with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 4
+average is better than K means with $p-value = 1.6593488538126098e-09 << 0.05$
+average is better than GMM with $p-value = 3.8944782046822065e-09 << 0.05$
+average is better than Fuzzy C Means with $p-value = 3.3761426760603268e-09 << 0.05$
+average is better than ward with $p-value = 2.341341179371028e-10 << 0.05$
+average is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+average is better than Spectral with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 6
+complete is better than K means with $p-value = 1.6593488538126098e-09 << 0.05$
+complete is better than GMM with $p-value = 3.8944782046822065e-09 << 0.05$
+complete is better than Fuzzy C Means with $p-value = 3.3761426760603268e-09 << 0.05$
+complete is better than ward with $p-value = 2.341341179371028e-10 << 0.05$
+complete is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+complete is better than Spectral with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 6
+single is better than K means with $p-value = 1.6593488538126098e-09 << 0.05$
+single is better than GMM with $p-value = 3.8944782046822065e-09 << 0.05$
+single is better than Fuzzy C Means with $p-value = 3.3761426760603268e-09 << 0.05$
+single is better than ward with $p-value = 2.341341179371028e-10 << 0.05$
+single is better than Spectral with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 5
+Spectral is better than GMM with $p-value = 2.7100288587144082e-05 << 0.05$
+Spectral is better than Fuzzy C Means with $p-value = 3.3761426760603268e-09 << 0.05$
+better than: 2
+DBSCAN is better than K means with $p-value = 1.6593488538126098e-09 << 0.05$
+DBSCAN is better than GMM with $p-value = 3.8944782046822065e-09 << 0.05$
+DBSCAN is better than Fuzzy C Means with $p-value = 3.3761426760603268e-09 << 0.05$
+DBSCAN is better than ward with $p-value = 2.341341179371028e-10 << 0.05$
+DBSCAN is better than average with $p-value = 2.341341179371028e-10 << 0.05$
+DBSCAN is better than complete with $p-value = 2.341341179371028e-10 << 0.05$
+DBSCAN is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+DBSCAN is better than Spectral with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 8

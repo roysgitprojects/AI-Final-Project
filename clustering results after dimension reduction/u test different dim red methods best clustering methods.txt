@@ -1,0 +1,10 @@
+better than: 0
+PCA K means is better than ae K means with $p-value = 2.9512919102366153e-08 << 0.05$
+PCA K means is better than CMDS ward with $p-value = 3.407843007190592e-09 << 0.05$
+PCA K means is better than ICA K means with $p-value = 3.10082907870957e-07 << 0.05$
+better than: 3
+CMDS ward is better than ae K means with $p-value = 3.91602535093711e-09 << 0.05$
+better than: 1
+ICA K means is better than ae K means with $p-value = 1.6967962606771004e-08 << 0.05$
+ICA K means is better than CMDS ward with $p-value = 1.652640359487141e-09 << 0.05$
+better than: 2

@@ -1,4 +1,4 @@
-p,f,s,e,f,-,f,c,n,b,t,k,s,w,w,p,w,o,e,w,v,d
+,f,s,e,f,-,f,c,n,b,t,k,s,w,w,p,w,o,e,w,v,d
 p,f,s,n,f,-,f,c,n,b,t,k,s,-,p,p,w,o,e,w,-,d
 p,-,y,e,f,s,f,c,n,b,t,-,s,p,p,p,w,o,e,w,v,d
 p,f,y,-,f,f,f,c,n,b,t,s,k,w,w,p,w,o,e,w,v,d

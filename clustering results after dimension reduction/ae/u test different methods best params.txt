@@ -1,0 +1,22 @@
+K means is better than Fuzzy C Means with $p-value = 2.0341654221735855e-08 << 0.05$
+K means is better than ward with $p-value = 3.91602535093711e-09 << 0.05$
+K means is better than average with $p-value = 3.91602535093711e-09 << 0.05$
+K means is better than complete with $p-value = 3.91602535093711e-09 << 0.05$
+K means is better than single with $p-value = 3.91602535093711e-09 << 0.05$
+better than: 5
+Fuzzy C Means is better than ward with $p-value = 2.096592812611416e-09 << 0.05$
+Fuzzy C Means is better than average with $p-value = 2.096592812611416e-09 << 0.05$
+Fuzzy C Means is better than complete with $p-value = 2.096592812611416e-09 << 0.05$
+Fuzzy C Means is better than single with $p-value = 2.096592812611416e-09 << 0.05$
+better than: 4
+ward is better than complete with $p-value = 2.341341179371028e-10 << 0.05$
+ward is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 2
+average is better than ward with $p-value = 2.341341179371028e-10 << 0.05$
+average is better than complete with $p-value = 2.341341179371028e-10 << 0.05$
+average is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 3
+better than: 0
+single is better than complete with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 1
+None

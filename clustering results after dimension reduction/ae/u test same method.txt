@@ -1,0 +1,938 @@
+K means
+3 is better than 5 with $p-value = 2.78591918347354e-08 << 0.05$
+3 is better than 6 with $p-value = 2.501149281698566e-08 << 0.05$
+3 is better than 11 with $p-value = 7.346924489105434e-06 << 0.05$
+3 is better than 14 with $p-value = 2.9008062411759892e-08 << 0.05$
+3 is better than 15 with $p-value = 2.9896562079563226e-08 << 0.05$
+3 is better than 16 with $p-value = 2.9939455692957314e-08 << 0.05$
+3 is better than 17 with $p-value = 2.9939455692957314e-08 << 0.05$
+3 is better than 18 with $p-value = 2.9939455692957314e-08 << 0.05$
+3 is better than 19 with $p-value = 2.9939455692957314e-08 << 0.05$
+better than: 9
+4 is better than 3 with $p-value = 2.9428249207769294e-08 << 0.05$
+4 is better than 5 with $p-value = 3.1118001611498626e-08 << 0.05$
+4 is better than 6 with $p-value = 2.7980359791697494e-08 << 0.05$
+4 is better than 7 with $p-value = 9.595936469453237e-09 << 0.05$
+4 is better than 8 with $p-value = 3.3313034519733685e-08 << 0.05$
+4 is better than 9 with $p-value = 3.289150739973524e-08 << 0.05$
+4 is better than 10 with $p-value = 3.32659675084765e-08 << 0.05$
+4 is better than 11 with $p-value = 3.32659675084765e-08 << 0.05$
+4 is better than 12 with $p-value = 3.340734219524334e-08 << 0.05$
+4 is better than 13 with $p-value = 3.317200684107224e-08 << 0.05$
+4 is better than 14 with $p-value = 3.2382609592080143e-08 << 0.05$
+4 is better than 15 with $p-value = 3.33601593954475e-08 << 0.05$
+4 is better than 16 with $p-value = 3.340734219524334e-08 << 0.05$
+4 is better than 17 with $p-value = 3.340734219524334e-08 << 0.05$
+4 is better than 18 with $p-value = 3.340734219524334e-08 << 0.05$
+4 is better than 19 with $p-value = 3.340734219524334e-08 << 0.05$
+better than: 16
+5 is better than 6 with $p-value = 8.71142388452672e-06 << 0.05$
+5 is better than 11 with $p-value = 7.6177801253971635e-06 << 0.05$
+5 is better than 15 with $p-value = 3.160959378755545e-08 << 0.05$
+5 is better than 16 with $p-value = 3.165461698353267e-08 << 0.05$
+5 is better than 17 with $p-value = 3.165461698353267e-08 << 0.05$
+5 is better than 18 with $p-value = 3.165461698353267e-08 << 0.05$
+5 is better than 19 with $p-value = 3.165461698353267e-08 << 0.05$
+better than: 7
+6 is better than 11 with $p-value = 7.110470185965016e-06 << 0.05$
+6 is better than 15 with $p-value = 2.842857611786361e-08 << 0.05$
+6 is better than 16 with $p-value = 2.8469631211812273e-08 << 0.05$
+6 is better than 17 with $p-value = 2.8469631211812273e-08 << 0.05$
+6 is better than 18 with $p-value = 2.8469631211812273e-08 << 0.05$
+6 is better than 19 with $p-value = 2.8469631211812273e-08 << 0.05$
+better than: 6
+7 is better than 3 with $p-value = 8.440225723897167e-09 << 0.05$
+7 is better than 5 with $p-value = 9.009291471359555e-09 << 0.05$
+7 is better than 6 with $p-value = 7.95669766743693e-09 << 0.05$
+7 is better than 8 with $p-value = 9.755787911052182e-09 << 0.05$
+7 is better than 9 with $p-value = 9.611817368746183e-09 << 0.05$
+7 is better than 10 with $p-value = 4.054582312952103e-06 << 0.05$
+7 is better than 11 with $p-value = 3.553900333258245e-06 << 0.05$
+7 is better than 12 with $p-value = 9.788037450179865e-09 << 0.05$
+7 is better than 13 with $p-value = 9.707588637797035e-09 << 0.05$
+7 is better than 14 with $p-value = 9.438391100980251e-09 << 0.05$
+7 is better than 15 with $p-value = 9.771900992346174e-09 << 0.05$
+7 is better than 16 with $p-value = 9.788037450179865e-09 << 0.05$
+7 is better than 17 with $p-value = 9.788037450179865e-09 << 0.05$
+7 is better than 18 with $p-value = 9.788037450179865e-09 << 0.05$
+7 is better than 19 with $p-value = 9.788037450179865e-09 << 0.05$
+better than: 15
+8 is better than 3 with $p-value = 2.985372193843261e-08 << 0.05$
+8 is better than 5 with $p-value = 3.156462628361387e-08 << 0.05$
+8 is better than 6 with $p-value = 2.8387572564049158e-08 << 0.05$
+8 is better than 11 with $p-value = 7.962052178224484e-06 << 0.05$
+8 is better than 12 with $p-value = 3.38823691698822e-08 << 0.05$
+8 is better than 13 with $p-value = 3.364412714572691e-08 << 0.05$
+8 is better than 14 with $p-value = 3.2844958493403727e-08 << 0.05$
+8 is better than 15 with $p-value = 3.383460383922705e-08 << 0.05$
+8 is better than 16 with $p-value = 3.38823691698822e-08 << 0.05$
+8 is better than 17 with $p-value = 3.38823691698822e-08 << 0.05$
+8 is better than 18 with $p-value = 3.38823691698822e-08 << 0.05$
+8 is better than 19 with $p-value = 3.38823691698822e-08 << 0.05$
+better than: 12
+9 is better than 3 with $p-value = 7.292330252757263e-06 << 0.05$
+9 is better than 5 with $p-value = 7.561578455291826e-06 << 0.05$
+9 is better than 6 with $p-value = 7.057289999642175e-06 << 0.05$
+9 is better than 8 with $p-value = 0.0218758670454228 << 0.05$
+9 is better than 11 with $p-value = 0.00041456595953370237 << 0.05$
+9 is better than 12 with $p-value = 7.918350223246298e-06 << 0.05$
+9 is better than 13 with $p-value = 7.882078662908019e-06 << 0.05$
+9 is better than 14 with $p-value = 7.75974824765685e-06 << 0.05$
+9 is better than 15 with $p-value = 7.911085252658527e-06 << 0.05$
+9 is better than 16 with $p-value = 7.781395150130568e-07 << 0.05$
+9 is better than 17 with $p-value = 6.794700946210772e-07 << 0.05$
+9 is better than 18 with $p-value = 4.5047012351426166e-07 << 0.05$
+9 is better than 19 with $p-value = 2.967529829132982e-07 << 0.05$
+better than: 13
+10 is better than 3 with $p-value = 2.981093521358028e-08 << 0.05$
+10 is better than 5 with $p-value = 3.1519714413898926e-08 << 0.05$
+10 is better than 6 with $p-value = 2.8346620495987084e-08 << 0.05$
+10 is better than 11 with $p-value = 7.95475515597913e-06 << 0.05$
+10 is better than 12 with $p-value = 3.383460383922705e-08 << 0.05$
+10 is better than 13 with $p-value = 3.359665382944776e-08 << 0.05$
+10 is better than 14 with $p-value = 3.279846685792612e-08 << 0.05$
+10 is better than 15 with $p-value = 3.378689703156949e-08 << 0.05$
+10 is better than 16 with $p-value = 3.383460383922705e-08 << 0.05$
+10 is better than 17 with $p-value = 3.383460383922705e-08 << 0.05$
+10 is better than 18 with $p-value = 3.383460383922705e-08 << 0.05$
+10 is better than 19 with $p-value = 3.383460383922705e-08 << 0.05$
+better than: 12
+11 is better than 16 with $p-value = 0.013730818219704488 << 0.05$
+11 is better than 17 with $p-value = 0.0004171513977383211 << 0.05$
+11 is better than 18 with $p-value = 8.949366140381525e-05 << 0.05$
+11 is better than 19 with $p-value = 1.9874613365415454e-06 << 0.05$
+better than: 4
+12 is better than 3 with $p-value = 0.0005850612404481075 << 0.05$
+12 is better than 5 with $p-value = 0.000597452995635179 << 0.05$
+12 is better than 6 with $p-value = 0.0005740861298996505 << 0.05$
+12 is better than 11 with $p-value = 0.0008898567642102868 << 0.05$
+12 is better than 13 with $p-value = 0.0005564712939832773 << 0.05$
+12 is better than 14 with $p-value = 0.0006064556331440837 << 0.05$
+12 is better than 15 with $p-value = 8.043355528558374e-05 << 0.05$
+12 is better than 16 with $p-value = 1.0307981020522368e-06 << 0.05$
+12 is better than 17 with $p-value = 1.177829568115366e-06 << 0.05$
+12 is better than 18 with $p-value = 6.004440969211716e-07 << 0.05$
+12 is better than 19 with $p-value = 1.1088821650461217e-07 << 0.05$
+better than: 11
+13 is better than 3 with $p-value = 7.3332453299748425e-06 << 0.05$
+13 is better than 5 with $p-value = 5.634797521734678e-07 << 0.05$
+13 is better than 6 with $p-value = 5.167789017714288e-07 << 0.05$
+13 is better than 11 with $p-value = 8.971996809206482e-06 << 0.05$
+13 is better than 14 with $p-value = 4.187127127984084e-06 << 0.05$
+13 is better than 15 with $p-value = 5.279270602856316e-08 << 0.05$
+13 is better than 16 with $p-value = 4.554771270637428e-08 << 0.05$
+13 is better than 17 with $p-value = 5.2865114850134954e-08 << 0.05$
+13 is better than 18 with $p-value = 3.373924868679945e-08 << 0.05$
+13 is better than 19 with $p-value = 3.921528191379719e-08 << 0.05$
+better than: 10
+14 is better than 5 with $p-value = 0.0003292378537849832 << 0.05$
+14 is better than 6 with $p-value = 6.984688566506061e-06 << 0.05$
+14 is better than 11 with $p-value = 7.817124829411275e-06 << 0.05$
+14 is better than 15 with $p-value = 3.289150739973524e-08 << 0.05$
+14 is better than 16 with $p-value = 3.293811363606447e-08 << 0.05$
+14 is better than 17 with $p-value = 3.293811363606447e-08 << 0.05$
+14 is better than 18 with $p-value = 3.293811363606447e-08 << 0.05$
+14 is better than 19 with $p-value = 3.293811363606447e-08 << 0.05$
+better than: 8
+15 is better than 11 with $p-value = 0.00034261288134804755 << 0.05$
+15 is better than 16 with $p-value = 0.006170326845958843 << 0.05$
+15 is better than 17 with $p-value = 8.043355528558374e-05 << 0.05$
+15 is better than 18 with $p-value = 3.96926021218465e-07 << 0.05$
+15 is better than 19 with $p-value = 4.557967598150111e-07 << 0.05$
+better than: 5
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+GMM
+better than: 0
+better than: 0
+C:\Users\User\venv\lib\site-packages\scipy\stats\stats.py:7171: RuntimeWarning: divide by zero encountered in double_scalars
+  z = (bigu - meanrank) / sd
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+Fuzzy C Means
+3 is better than 5 with $p-value = 4.092234890738009e-09 << 0.05$
+3 is better than 6 with $p-value = 2.8702821375479014e-09 << 0.05$
+3 is better than 7 with $p-value = 6.61323998305251e-05 << 0.05$
+3 is better than 8 with $p-value = 1.5197451752177065e-08 << 0.05$
+3 is better than 9 with $p-value = 2.4073023296287222e-08 << 0.05$
+3 is better than 10 with $p-value = 2.4430275280870232e-08 << 0.05$
+3 is better than 11 with $p-value = 2.3790509202404214e-08 << 0.05$
+3 is better than 12 with $p-value = 1.8916274332962507e-08 << 0.05$
+3 is better than 13 with $p-value = 2.425107586322995e-08 << 0.05$
+3 is better than 14 with $p-value = 2.6095712631997942e-08 << 0.05$
+3 is better than 15 with $p-value = 2.6133818443299258e-08 << 0.05$
+3 is better than 16 with $p-value = 2.6210175498131014e-08 << 0.05$
+3 is better than 17 with $p-value = 2.58680925294632e-08 << 0.05$
+3 is better than 18 with $p-value = 2.6133818443299258e-08 << 0.05$
+3 is better than 19 with $p-value = 2.6095712631997942e-08 << 0.05$
+better than: 15
+4 is better than 3 with $p-value = 1.5776924426670297e-08 << 0.05$
+4 is better than 5 with $p-value = 3.0270526116166365e-09 << 0.05$
+4 is better than 6 with $p-value = 2.096592812611416e-09 << 0.05$
+4 is better than 7 with $p-value = 1.8015224229798905e-08 << 0.05$
+4 is better than 8 with $p-value = 1.1750394344087917e-08 << 0.05$
+4 is better than 9 with $p-value = 1.8887531593751858e-08 << 0.05$
+4 is better than 10 with $p-value = 1.91766833884693e-08 << 0.05$
+4 is better than 11 with $p-value = 1.8658959939439125e-08 << 0.05$
+4 is better than 12 with $p-value = 1.4728876538748003e-08 << 0.05$
+4 is better than 13 with $p-value = 1.9031627773586563e-08 << 0.05$
+4 is better than 14 with $p-value = 2.0526256330294043e-08 << 0.05$
+4 is better than 15 with $p-value = 2.0557165110346664e-08 << 0.05$
+4 is better than 16 with $p-value = 2.0619104585558394e-08 << 0.05$
+4 is better than 17 with $p-value = 2.0341654221735855e-08 << 0.05$
+4 is better than 18 with $p-value = 2.0557165110346664e-08 << 0.05$
+4 is better than 19 with $p-value = 2.0526256330294043e-08 << 0.05$
+better than: 16
+5 is better than 6 with $p-value = 3.7137320261893873e-10 << 0.05$
+5 is better than 7 with $p-value = 3.0043448299160896e-05 << 0.05$
+5 is better than 8 with $p-value = 2.8922275897159498e-09 << 0.05$
+5 is better than 9 with $p-value = 5.0556335916090176e-09 << 0.05$
+5 is better than 10 with $p-value = 5.146585231921021e-09 << 0.05$
+5 is better than 11 with $p-value = 4.983897325514661e-09 << 0.05$
+5 is better than 12 with $p-value = 3.774347578992892e-09 << 0.05$
+5 is better than 13 with $p-value = 5.100930406987345e-09 << 0.05$
+5 is better than 14 with $p-value = 5.573994164296426e-09 << 0.05$
+5 is better than 15 with $p-value = 5.583837590002283e-09 << 0.05$
+5 is better than 16 with $p-value = 5.6035704715104295e-09 << 0.05$
+5 is better than 17 with $p-value = 2.457396098102412e-06 << 0.05$
+5 is better than 18 with $p-value = 5.583837590002283e-09 << 0.05$
+5 is better than 19 with $p-value = 5.573994164296426e-09 << 0.05$
+better than: 14
+6 is better than 7 with $p-value = 2.5226130891918454e-05 << 0.05$
+6 is better than 8 with $p-value = 1.999361384589759e-09 << 0.05$
+6 is better than 9 with $p-value = 3.576972559641435e-09 << 0.05$
+6 is better than 10 with $p-value = 3.6439751682633966e-09 << 0.05$
+6 is better than 11 with $p-value = 3.5241582363161007e-09 << 0.05$
+6 is better than 12 with $p-value = 2.6384488182740676e-09 << 0.05$
+6 is better than 13 with $p-value = 3.6103362578641035e-09 << 0.05$
+6 is better than 14 with $p-value = 3.959436327474976e-09 << 0.05$
+6 is better than 15 with $p-value = 1.0434030123964591e-07 << 0.05$
+6 is better than 16 with $p-value = 1.9892095649983002e-06 << 0.05$
+6 is better than 17 with $p-value = 0.0019960604254859095 << 0.05$
+6 is better than 18 with $p-value = 2.7351370333678443e-05 << 0.05$
+6 is better than 19 with $p-value = 3.959436327474976e-09 << 0.05$
+better than: 13
+better than: 0
+8 is better than 7 with $p-value = 0.01397427941840895 << 0.05$
+better than: 1
+9 is better than 7 with $p-value = 0.015152428232992426 << 0.05$
+9 is better than 8 with $p-value = 1.4428235315890588e-05 << 0.05$
+better than: 2
+10 is better than 7 with $p-value = 0.04698162003776982 << 0.05$
+10 is better than 8 with $p-value = 0.00014258275354668163 << 0.05$
+10 is better than 9 with $p-value = 0.029383275265079736 << 0.05$
+better than: 3
+11 is better than 7 with $p-value = 0.0008215388028084734 << 0.05$
+11 is better than 8 with $p-value = 1.1204980957434609e-07 << 0.05$
+11 is better than 9 with $p-value = 7.090490091706863e-06 << 0.05$
+11 is better than 10 with $p-value = 0.0012098530083601289 << 0.05$
+11 is better than 13 with $p-value = 0.0008367984942084968 << 0.05$
+11 is better than 14 with $p-value = 0.0002974405917996878 << 0.05$
+11 is better than 15 with $p-value = 0.02453551293403676 << 0.05$
+better than: 7
+12 is better than 7 with $p-value = 0.00023190421058933556 << 0.05$
+12 is better than 8 with $p-value = 1.4183321960478868e-08 << 0.05$
+12 is better than 9 with $p-value = 4.2995558460824016e-07 << 0.05$
+12 is better than 10 with $p-value = 3.7245871369789298e-06 << 0.05$
+12 is better than 13 with $p-value = 5.715615876005448e-07 << 0.05$
+12 is better than 14 with $p-value = 3.4281209595026985e-06 << 0.05$
+12 is better than 15 with $p-value = 0.0004924496190749768 << 0.05$
+12 is better than 18 with $p-value = 0.0027576052279071617 << 0.05$
+12 is better than 19 with $p-value = 0.03450287298978016 << 0.05$
+better than: 9
+13 is better than 7 with $p-value = 0.015172120576145271 << 0.05$
+13 is better than 8 with $p-value = 1.8348621791728147e-08 << 0.05$
+13 is better than 9 with $p-value = 0.0022389341096712397 << 0.05$
+13 is better than 15 with $p-value = 0.02027264109591348 << 0.05$
+better than: 4
+14 is better than 7 with $p-value = 0.015369477509132451 << 0.05$
+14 is better than 8 with $p-value = 1.2198520249512436e-07 << 0.05$
+14 is better than 9 with $p-value = 0.004414885277004226 << 0.05$
+better than: 3
+15 is better than 7 with $p-value = 0.008088456925927521 << 0.05$
+15 is better than 8 with $p-value = 3.377233157809988e-06 << 0.05$
+15 is better than 9 with $p-value = 0.016584314558511726 << 0.05$
+better than: 3
+16 is better than 7 with $p-value = 0.005118778851779917 << 0.05$
+16 is better than 8 with $p-value = 6.760795882023023e-08 << 0.05$
+16 is better than 9 with $p-value = 1.558746726277119e-05 << 0.05$
+16 is better than 10 with $p-value = 0.008197100440400609 << 0.05$
+16 is better than 13 with $p-value = 0.01661336859890712 << 0.05$
+16 is better than 14 with $p-value = 0.0025482773795471817 << 0.05$
+16 is better than 15 with $p-value = 0.020523819179337963 << 0.05$
+16 is better than 19 with $p-value = 0.03815337268669587 << 0.05$
+better than: 8
+17 is better than 7 with $p-value = 0.0004787320457127441 << 0.05$
+17 is better than 8 with $p-value = 6.714545993341541e-07 << 0.05$
+17 is better than 9 with $p-value = 3.918450716715845e-05 << 0.05$
+17 is better than 10 with $p-value = 0.001769825311622723 << 0.05$
+17 is better than 11 with $p-value = 0.004392522024435497 << 0.05$
+17 is better than 12 with $p-value = 0.013838563409137795 << 0.05$
+17 is better than 13 with $p-value = 0.013495512642602068 << 0.05$
+17 is better than 14 with $p-value = 0.001805162969843992 << 0.05$
+17 is better than 15 with $p-value = 0.0027613790516732646 << 0.05$
+17 is better than 19 with $p-value = 0.0008052472242538134 << 0.05$
+better than: 10
+18 is better than 7 with $p-value = 0.006451751376933936 << 0.05$
+18 is better than 8 with $p-value = 3.677668595374937e-08 << 0.05$
+18 is better than 9 with $p-value = 5.517570167537909e-05 << 0.05$
+18 is better than 10 with $p-value = 0.004092537102476369 << 0.05$
+18 is better than 14 with $p-value = 0.003541955990842923 << 0.05$
+18 is better than 15 with $p-value = 0.006151926634505076 << 0.05$
+better than: 6
+19 is better than 7 with $p-value = 0.0040294636152624665 << 0.05$
+19 is better than 8 with $p-value = 1.1690730953711227e-06 << 0.05$
+19 is better than 9 with $p-value = 0.005587646803434807 << 0.05$
+better than: 3
+Hierarchical
+ward
+3 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 1
+4 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 16
+5 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 7
+6 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 13
+7 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 15
+8 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 14
+9 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 12
+10 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 11
+11 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 5
+12 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 9
+13 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 8
+14 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 10
+15 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 6
+16 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 4
+17 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 3
+18 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+18 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 2
+better than: 0
+Hierarchical
+average
+3 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 3
+better than: 0
+5 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 14
+6 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 12
+7 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 8
+8 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 13
+9 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 7
+10 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 6
+11 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 2
+12 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 1
+13 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 10
+14 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 15
+15 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 16
+16 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 11
+17 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 9
+18 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+18 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+18 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+18 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+18 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 5
+19 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+19 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+19 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+19 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 4
+Hierarchical
+complete
+3 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 13
+4 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 5
+5 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 16
+6 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 14
+7 is better than 3 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 15
+8 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 12
+9 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 11
+10 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 8
+better than: 0
+12 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 6
+13 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 9
+14 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 7
+15 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 4
+16 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 10
+17 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 3
+18 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+18 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 2
+19 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 1
+Hierarchical
+single
+3 is better than 4 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+3 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 16
+4 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 7 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+4 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 15
+5 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+5 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 13
+6 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+6 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 12
+7 is better than 5 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 6 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 8 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+7 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 14
+8 is better than 9 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+8 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 11
+9 is better than 10 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+9 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 10
+10 is better than 11 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+10 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 9
+11 is better than 12 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+11 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 8
+12 is better than 13 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+12 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 7
+13 is better than 14 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+13 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 6
+14 is better than 15 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+14 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 5
+15 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 17 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+15 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 4
+16 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+16 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 2
+17 is better than 16 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 18 with $p-value = 2.341341179371028e-10 << 0.05$
+17 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 3
+18 is better than 19 with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 1
+better than: 0
+DBSCAN
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0
+better than: 0

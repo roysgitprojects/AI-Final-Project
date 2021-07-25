@@ -1,0 +1,37 @@
+K means is better than GMM with $p-value = 4.646196736534784e-06 << 0.05$
+K means is better than Fuzzy C Means with $p-value = 5.1430920654543486e-08 << 0.05$
+K means is better than ward with $p-value = 9.220099484492492e-08 << 0.05$
+K means is better than average with $p-value = 9.220099484492492e-08 << 0.05$
+K means is better than complete with $p-value = 9.220099484492492e-08 << 0.05$
+K means is better than single with $p-value = 3.407843007190592e-09 << 0.05$
+K means is better than DBSCAN with $p-value = 3.407843007190592e-09 << 0.05$
+better than: 7
+GMM is better than Fuzzy C Means with $p-value = 7.037429863610899e-06 << 0.05$
+GMM is better than average with $p-value = 0.0002579406136382347 << 0.05$
+GMM is better than complete with $p-value = 2.5226130891918454e-05 << 0.05$
+GMM is better than single with $p-value = 3.3761426760603268e-09 << 0.05$
+GMM is better than DBSCAN with $p-value = 3.3761426760603268e-09 << 0.05$
+better than: 5
+Fuzzy C Means is better than single with $p-value = 0.00026634196784918005 << 0.05$
+Fuzzy C Means is better than DBSCAN with $p-value = 3.677891246060776e-09 << 0.05$
+better than: 2
+ward is better than GMM with $p-value = 9.150184531391777e-08 << 0.05$
+ward is better than Fuzzy C Means with $p-value = 3.677891246060776e-09 << 0.05$
+ward is better than average with $p-value = 2.341341179371028e-10 << 0.05$
+ward is better than complete with $p-value = 2.341341179371028e-10 << 0.05$
+ward is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+ward is better than DBSCAN with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 6
+average is better than Fuzzy C Means with $p-value = 3.677891246060776e-09 << 0.05$
+average is better than complete with $p-value = 2.341341179371028e-10 << 0.05$
+average is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+average is better than DBSCAN with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 4
+complete is better than Fuzzy C Means with $p-value = 0.00026634196784918005 << 0.05$
+complete is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+complete is better than DBSCAN with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 3
+single is better than DBSCAN with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 1
+better than: 0
+None

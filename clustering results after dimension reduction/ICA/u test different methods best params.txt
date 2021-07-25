@@ -1,0 +1,27 @@
+K means is better than GMM with $p-value = 3.7074986662362338e-06 << 0.05$
+K means is better than Fuzzy C Means with $p-value = 5.528737604652966e-07 << 0.05$
+K means is better than ward with $p-value = 1.1249768450990685e-06 << 0.05$
+K means is better than average with $p-value = 1.1249768450990685e-06 << 0.05$
+K means is better than complete with $p-value = 1.652640359487141e-09 << 0.05$
+K means is better than single with $p-value = 1.652640359487141e-09 << 0.05$
+better than: 6
+GMM is better than average with $p-value = 0.010514860143941283 << 0.05$
+GMM is better than complete with $p-value = 9.44692364977892e-08 << 0.05$
+GMM is better than single with $p-value = 9.44692364977892e-08 << 0.05$
+better than: 3
+Fuzzy C Means is better than complete with $p-value = 3.4591120732924993e-09 << 0.05$
+Fuzzy C Means is better than single with $p-value = 3.4591120732924993e-09 << 0.05$
+better than: 2
+ward is better than GMM with $p-value = 3.511063035843862e-09 << 0.05$
+ward is better than Fuzzy C Means with $p-value = 3.4591120732924993e-09 << 0.05$
+ward is better than average with $p-value = 2.341341179371028e-10 << 0.05$
+ward is better than complete with $p-value = 2.341341179371028e-10 << 0.05$
+ward is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 5
+average is better than complete with $p-value = 2.341341179371028e-10 << 0.05$
+average is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 2
+complete is better than single with $p-value = 2.341341179371028e-10 << 0.05$
+better than: 1
+better than: 0
+None
