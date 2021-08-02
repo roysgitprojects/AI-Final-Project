@@ -1,0 +1,762 @@
+normal data:
+
+linear
+8 is better than 5with $p-value = 0.012650391180782263 << 0.05$
+8 is better than 6with $p-value = 0.043862469546757966 << 0.05$
+8 is better than 7with $p-value = 0.04013110287719558 << 0.05$
+end
+rbf
+1 is better than 6with $p-value = 0.04269952928317958 << 0.05$
+8 is better than 2with $p-value = 0.02239577682206472 << 0.05$
+8 is better than 5with $p-value = 0.03681404631007683 << 0.05$
+8 is better than 6with $p-value = 0.0023638315398231834 << 0.05$
+8 is better than 7with $p-value = 0.014016112316927742 << 0.05$
+8 is better than 9with $p-value = 0.035682373999946296 << 0.05$
+8 is better than 10with $p-value = 0.03787741827052733 << 0.05$
+end
+sigmoid
+3 is better than 1with $p-value = 0.007681372941772902 << 0.05$
+6 is better than 1with $p-value = 0.03484748237048161 << 0.05$
+7 is better than 1with $p-value = 0.0029882519520041096 << 0.05$
+8 is better than 1with $p-value = 0.0006939313022543985 << 0.05$
+8 is better than 5with $p-value = 0.020329446508174507 << 0.05$
+8 is better than 10with $p-value = 0.030689129482611124 << 0.05$
+9 is better than 1with $p-value = 0.029851100580222407 << 0.05$
+10 is better than 1with $p-value = 0.0426554158760424 << 0.05$
+end
+poly
+1 is better than 9with $p-value = 0.0388681802712779 << 0.05$
+3 is better than 7with $p-value = 0.016064807580390507 << 0.05$
+3 is better than 8with $p-value = 0.04914915649284301 << 0.05$
+3 is better than 9with $p-value = 0.01616231279730208 << 0.05$
+end
+gini
+3 is better than 2with $p-value = 3.369165874485605e-08 << 0.05$
+4 is better than 2with $p-value = 3.33601593954475e-08 << 0.05$
+4 is better than 3with $p-value = 3.877891678197279e-08 << 0.05$
+4 is better than 7with $p-value = 0.04031635701425477 << 0.05$
+5 is better than 2with $p-value = 3.364412714572691e-08 << 0.05$
+5 is better than 3with $p-value = 3.364412714572691e-08 << 0.05$
+5 is better than 7with $p-value = 0.01567095123370088 << 0.05$
+5 is better than 8with $p-value = 0.02324126311552428 << 0.05$
+6 is better than 2with $p-value = 3.364412714572691e-08 << 0.05$
+6 is better than 3with $p-value = 3.6224593487581216e-08 << 0.05$
+6 is better than 7with $p-value = 0.007977440467144424 << 0.05$
+6 is better than 8with $p-value = 0.008265630279092063 << 0.05$
+7 is better than 2with $p-value = 3.369165874485605e-08 << 0.05$
+7 is better than 3with $p-value = 6.098246885334133e-08 << 0.05$
+8 is better than 2with $p-value = 3.359665382944776e-08 << 0.05$
+8 is better than 3with $p-value = 7.607688144162955e-08 << 0.05$
+end
+entropy
+3 is better than 2with $p-value = 3.33601593954475e-08 << 0.05$
+4 is better than 2with $p-value = 3.33601593954475e-08 << 0.05$
+4 is better than 3with $p-value = 6.089970232799076e-08 << 0.05$
+4 is better than 7with $p-value = 0.041287693893666 << 0.05$
+4 is better than 8with $p-value = 0.0016474451756838557 << 0.05$
+5 is better than 2with $p-value = 3.33601593954475e-08 << 0.05$
+5 is better than 3with $p-value = 4.5233451792969223e-08 << 0.05$
+5 is better than 7with $p-value = 0.0032182383339481456 << 0.05$
+5 is better than 8with $p-value = 2.896476861520777e-05 << 0.05$
+6 is better than 2with $p-value = 3.3313034519733685e-08 << 0.05$
+6 is better than 3with $p-value = 7.030355544022682e-08 << 0.05$
+6 is better than 8with $p-value = 0.0032533742199599676 << 0.05$
+7 is better than 2with $p-value = 3.289150739973524e-08 << 0.05$
+7 is better than 3with $p-value = 1.0032179281482885e-07 << 0.05$
+7 is better than 8with $p-value = 0.03263621632713434 << 0.05$
+8 is better than 2with $p-value = 3.32659675084765e-08 << 0.05$
+8 is better than 3with $p-value = 3.400635417998225e-07 << 0.05$
+
+
+Champion:
+
+
+
+MLP is better than XGBoostwith $p-value = 6.45148520816139e-08 << 0.05$
+SGD is better than XGBoostwith $p-value = 6.032304895582968e-08 << 0.05$
+Gradient_Boosting is better than XGBoostwith $p-value = 1.0859782698831212e-07 << 0.05$
+Gradient_Boosting is better than giniwith $p-value = 0.036854757314737745 << 0.05$
+linear is better than MLPwith $p-value = 0.034617880895970746 << 0.05$
+linear is better than SGDwith $p-value = 0.020946257839589564 << 0.05$
+linear is better than XGBoostwith $p-value = 3.321895830209886e-08 << 0.05$
+linear is better than sigmoidwith $p-value = 0.008222453894689244 << 0.05$
+linear is better than giniwith $p-value = 0.0005478107471772489 << 0.05$
+rbf is better than MLPwith $p-value = 0.04783282800311655 << 0.05$
+rbf is better than SGDwith $p-value = 0.02323096758456325 << 0.05$
+rbf is better than XGBoostwith $p-value = 4.1857036710795785e-08 << 0.05$
+rbf is better than sigmoidwith $p-value = 0.009211403833212737 << 0.05$
+rbf is better than giniwith $p-value = 0.0021346959286204508 << 0.05$
+sigmoid is better than XGBoostwith $p-value = 8.750267610463185e-08 << 0.05$
+poly is better than MLPwith $p-value = 0.03172817045101468 << 0.05$
+poly is better than SGDwith $p-value = 0.013669146500836468 << 0.05$
+poly is better than Gradient_Boostingwith $p-value = 0.041461423215610096 << 0.05$
+poly is better than XGBoostwith $p-value = 4.529615323400879e-08 << 0.05$
+poly is better than sigmoidwith $p-value = 0.00544927980954769 << 0.05$
+poly is better than giniwith $p-value = 0.0007667182532412572 << 0.05$
+gini is better than XGBoostwith $p-value = 8.143309525538694e-08 << 0.05$
+entropy is better than XGBoostwith $p-value = 4.860341020672932e-08 << 0.05$
+entropy is better than giniwith $p-value = 0.045233929121005115 << 0.05$
+
+
+PCA:
+
+
+linear
+2 is better than 1with $p-value = 0.009544363931504195 << 0.05$
+2 is better than 4with $p-value = 0.03912759919233676 << 0.05$
+2 is better than 7with $p-value = 0.02250670066152808 << 0.05$
+end
+rbf
+2 is better than 1with $p-value = 1.5373319108052255e-05 << 0.05$
+3 is better than 1with $p-value = 3.6678764190887385e-07 << 0.05$
+3 is better than 2with $p-value = 0.0011617726281760489 << 0.05$
+4 is better than 1with $p-value = 4.209077272859649e-08 << 0.05$
+4 is better than 2with $p-value = 2.5684447893313072e-05 << 0.05$
+5 is better than 1with $p-value = 3.345458297879516e-08 << 0.05$
+5 is better than 2with $p-value = 1.1536791948431967e-06 << 0.05$
+5 is better than 3with $p-value = 0.0006358575723958102 << 0.05$
+5 is better than 4with $p-value = 0.016738052246641516 << 0.05$
+6 is better than 1with $p-value = 3.350188180582478e-08 << 0.05$
+6 is better than 2with $p-value = 5.922102170458168e-07 << 0.05$
+6 is better than 3with $p-value = 0.004124261696633141 << 0.05$
+6 is better than 4with $p-value = 0.02724613174311632 << 0.05$
+7 is better than 1with $p-value = 6.098246885334133e-08 << 0.05$
+7 is better than 2with $p-value = 4.524906260926531e-06 << 0.05$
+7 is better than 3with $p-value = 0.0012689888314546167 << 0.05$
+7 is better than 4with $p-value = 0.017339471478506157 << 0.05$
+8 is better than 1with $p-value = 4.8737624191935365e-08 << 0.05$
+8 is better than 2with $p-value = 1.1637971163978587e-06 << 0.05$
+8 is better than 3with $p-value = 6.761084921069066e-05 << 0.05$
+8 is better than 4with $p-value = 0.0009666547680543181 << 0.05$
+8 is better than 5with $p-value = 0.042662768145117054 << 0.05$
+8 is better than 6with $p-value = 0.03800158825082122 << 0.05$
+9 is better than 1with $p-value = 3.5970834877914735e-08 << 0.05$
+9 is better than 2with $p-value = 9.481687810294689e-07 << 0.05$
+9 is better than 3with $p-value = 0.00286022123665141 << 0.05$
+9 is better than 4with $p-value = 0.020447913746756186 << 0.05$
+10 is better than 1with $p-value = 3.369165874485605e-08 << 0.05$
+10 is better than 2with $p-value = 8.334368429279249e-07 << 0.05$
+10 is better than 3with $p-value = 0.0008832207332330844 << 0.05$
+10 is better than 4with $p-value = 0.004668088157693011 << 0.05$
+end
+sigmoid
+1 is better than 3with $p-value = 0.004475873029984062 << 0.05$
+1 is better than 4with $p-value = 1.074318434549356e-05 << 0.05$
+1 is better than 5with $p-value = 5.095065163473814e-06 << 0.05$
+1 is better than 6with $p-value = 8.92331216711875e-06 << 0.05$
+1 is better than 7with $p-value = 1.5539076839437385e-07 << 0.05$
+1 is better than 8with $p-value = 2.09597146195793e-07 << 0.05$
+1 is better than 9with $p-value = 3.354923873610264e-08 << 0.05$
+1 is better than 10with $p-value = 5.22165177794186e-08 << 0.05$
+2 is better than 3with $p-value = 0.011859373845927562 << 0.05$
+2 is better than 4with $p-value = 4.792004992988066e-05 << 0.05$
+2 is better than 5with $p-value = 1.136061948703863e-05 << 0.05$
+2 is better than 6with $p-value = 4.316139409042164e-05 << 0.05$
+2 is better than 7with $p-value = 1.4062276661403815e-06 << 0.05$
+2 is better than 8with $p-value = 2.5541088976312905e-06 << 0.05$
+2 is better than 9with $p-value = 6.056960585088114e-08 << 0.05$
+2 is better than 10with $p-value = 2.949556409166229e-07 << 0.05$
+3 is better than 4with $p-value = 0.024846051469495777 << 0.05$
+3 is better than 5with $p-value = 0.002059349378960008 << 0.05$
+3 is better than 6with $p-value = 0.01797624440718708 << 0.05$
+3 is better than 7with $p-value = 0.0003410202851205268 << 0.05$
+3 is better than 8with $p-value = 0.00018678195148587396 << 0.05$
+3 is better than 9with $p-value = 4.5206257432870565e-07 << 0.05$
+3 is better than 10with $p-value = 2.19345239451915e-05 << 0.05$
+4 is better than 8with $p-value = 0.013241857334457822 << 0.05$
+4 is better than 9with $p-value = 9.517473125842602e-06 << 0.05$
+4 is better than 10with $p-value = 0.0009709407970082487 << 0.05$
+5 is better than 9with $p-value = 0.00011574112514098125 << 0.05$
+5 is better than 10with $p-value = 0.012321618940269487 << 0.05$
+6 is better than 9with $p-value = 0.0006106656451428912 << 0.05$
+6 is better than 10with $p-value = 0.012753918329942038 << 0.05$
+7 is better than 9with $p-value = 0.0004350036066099371 << 0.05$
+7 is better than 10with $p-value = 0.015122964842079588 << 0.05$
+8 is better than 9with $p-value = 0.01922563047275379 << 0.05$
+end
+poly
+poly
+2 is better than 10with $p-value = 0.049291665928883684 << 0.05$
+5 is better than 10with $p-value = 0.04930749829795265 << 0.05$
+8 is better than 10with $p-value = 0.03180287739098498 << 0.05$
+
+
+gini
+3 is better than 2with $p-value = 3.369165874485605e-08 << 0.05$
+4 is better than 2with $p-value = 3.354923873610264e-08 << 0.05$
+4 is better than 3with $p-value = 2.935244221032629e-07 << 0.05$
+5 is better than 2with $p-value = 3.354923873610264e-08 << 0.05$
+5 is better than 3with $p-value = 4.846951635982586e-08 << 0.05$
+5 is better than 4with $p-value = 0.00920590274147485 << 0.05$
+6 is better than 2with $p-value = 3.373924868679945e-08 << 0.05$
+6 is better than 3with $p-value = 3.354923873610264e-08 << 0.05$
+6 is better than 4with $p-value = 3.0716562451794847e-06 << 0.05$
+6 is better than 5with $p-value = 0.001378846009325968 << 0.05$
+7 is better than 2with $p-value = 3.270565516319758e-08 << 0.05$
+7 is better than 3with $p-value = 3.252071642698878e-08 << 0.05$
+7 is better than 4with $p-value = 5.366019733188497e-07 << 0.05$
+7 is better than 5with $p-value = 0.00026158964525161327 << 0.05$
+8 is better than 2with $p-value = 3.3313034519733685e-08 << 0.05$
+8 is better than 3with $p-value = 3.3125113065915595e-08 << 0.05$
+8 is better than 4with $p-value = 3.6112680735978187e-07 << 0.05$
+8 is better than 5with $p-value = 0.00016542380857616443 << 0.05$
+end
+entropy
+3 is better than 2with $p-value = 6.51290786479546e-08 << 0.05$
+4 is better than 2with $p-value = 3.345458297879516e-08 << 0.05$
+4 is better than 3with $p-value = 2.7073550537736117e-06 << 0.05$
+5 is better than 2with $p-value = 3.3125113065915595e-08 << 0.05$
+5 is better than 3with $p-value = 3.30314983355312e-08 << 0.05$
+5 is better than 4with $p-value = 7.044148531273386e-05 << 0.05$
+6 is better than 2with $p-value = 3.359665382944776e-08 << 0.05$
+6 is better than 3with $p-value = 3.894205734018454e-08 << 0.05$
+6 is better than 4with $p-value = 2.904433089165774e-06 << 0.05$
+6 is better than 5with $p-value = 0.03586252990996636 << 0.05$
+7 is better than 2with $p-value = 3.350188180582478e-08 << 0.05$
+7 is better than 3with $p-value = 3.340734219524334e-08 << 0.05$
+7 is better than 4with $p-value = 9.502749656178836e-07 << 0.05$
+7 is better than 5with $p-value = 0.007394967744002055 << 0.05$
+7 is better than 8with $p-value = 0.022496611828211843 << 0.05$
+8 is better than 2with $p-value = 3.345458297879516e-08 << 0.05$
+8 is better than 3with $p-value = 3.33601593954475e-08 << 0.05$
+8 is better than 4with $p-value = 2.7366440139956682e-05 << 0.05$
+
+Champion:
+
+MLP is better than SGDwith $p-value = 3.3313034519733685e-08 << 0.05$
+MLP is better than Gradient_Boostingwith $p-value = 1.245135200686598e-06 << 0.05$
+MLP is better than XGBoostwith $p-value = 7.058784640300746e-08 << 0.05$
+MLP is better than linearwith $p-value = 3.33601593954475e-08 << 0.05$
+MLP is better than rbfwith $p-value = 0.009266487438513275 << 0.05$
+MLP is better than sigmoidwith $p-value = 3.33601593954475e-08 << 0.05$
+MLP is better than polywith $p-value = 3.359665382944776e-08 << 0.05$
+MLP is better than giniwith $p-value = 1.2634075278981903e-07 << 0.05$
+MLP is better than entropywith $p-value = 8.93490150276406e-07 << 0.05$
+SGD is better than sigmoidwith $p-value = 0.0005236128881838439 << 0.05$
+Gradient_Boosting is better than SGDwith $p-value = 3.321895830209886e-08 << 0.05$
+Gradient_Boosting is better than XGBoostwith $p-value = 0.02041946655398918 << 0.05$
+Gradient_Boosting is better than linearwith $p-value = 3.32659675084765e-08 << 0.05$
+Gradient_Boosting is better than sigmoidwith $p-value = 3.32659675084765e-08 << 0.05$
+Gradient_Boosting is better than polywith $p-value = 3.350188180582478e-08 << 0.05$
+XGBoost is better than SGDwith $p-value = 3.3125113065915595e-08 << 0.05$
+XGBoost is better than linearwith $p-value = 3.317200684107224e-08 << 0.05$
+XGBoost is better than sigmoidwith $p-value = 3.317200684107224e-08 << 0.05$
+XGBoost is better than polywith $p-value = 3.340734219524334e-08 << 0.05$
+linear is better than SGDwith $p-value = 2.8525759214641383e-05 << 0.05$
+linear is better than sigmoidwith $p-value = 3.1368666261529957e-07 << 0.05$
+rbf is better than SGDwith $p-value = 3.3125113065915595e-08 << 0.05$
+rbf is better than Gradient_Boostingwith $p-value = 0.0005256167816045085 << 0.05$
+rbf is better than XGBoostwith $p-value = 8.899048975627098e-06 << 0.05$
+rbf is better than linearwith $p-value = 3.317200684107224e-08 << 0.05$
+rbf is better than sigmoidwith $p-value = 3.317200684107224e-08 << 0.05$
+rbf is better than polywith $p-value = 3.340734219524334e-08 << 0.05$
+rbf is better than giniwith $p-value = 9.882283480893157e-05 << 0.05$
+rbf is better than entropywith $p-value = 0.0003232070718122282 << 0.05$
+poly is better than SGDwith $p-value = 0.0006318323347024982 << 0.05$
+poly is better than sigmoidwith $p-value = 2.8869086520229676e-06 << 0.05$
+gini is better than SGDwith $p-value = 3.321895830209886e-08 << 0.05$
+gini is better than linearwith $p-value = 3.32659675084765e-08 << 0.05$
+gini is better than sigmoidwith $p-value = 3.32659675084765e-08 << 0.05$
+gini is better than polywith $p-value = 3.350188180582478e-08 << 0.05$
+entropy is better than SGDwith $p-value = 3.321895830209886e-08 << 0.05$
+entropy is better than XGBoostwith $p-value = 0.02046688380564337 << 0.05$
+entropy is better than linearwith $p-value = 3.32659675084765e-08 << 0.05$
+entropy is better than sigmoidwith $p-value = 3.32659675084765e-08 << 0.05$
+entropy is better than polywith $p-value = 3.894205734018454e-08 << 0.05$
+
+ICA:
+
+
+linear
+4 is better than 1with $p-value = 0.04795769656712559 << 0.05$
+5 is better than 1with $p-value = 0.04397445461332589 << 0.05$
+end
+rbf
+2 is better than 1with $p-value = 3.513908409810705e-06 << 0.05$
+3 is better than 1with $p-value = 4.529615323400879e-08 << 0.05$
+3 is better than 2with $p-value = 0.0013903294916473535 << 0.05$
+4 is better than 1with $p-value = 3.3313034519733685e-08 << 0.05$
+4 is better than 2with $p-value = 0.00013517562755193608 << 0.05$
+5 is better than 1with $p-value = 3.340734219524334e-08 << 0.05$
+5 is better than 2with $p-value = 2.242143850278102e-06 << 0.05$
+5 is better than 3with $p-value = 0.0068700681105595095 << 0.05$
+5 is better than 4with $p-value = 0.03266789191831315 << 0.05$
+6 is better than 1with $p-value = 3.359665382944776e-08 << 0.05$
+6 is better than 2with $p-value = 1.2075673795068687e-05 << 0.05$
+6 is better than 3with $p-value = 0.01190544143605891 << 0.05$
+6 is better than 4with $p-value = 0.03916967154648945 << 0.05$
+7 is better than 1with $p-value = 3.354923873610264e-08 << 0.05$
+7 is better than 2with $p-value = 5.793942168287458e-06 << 0.05$
+7 is better than 3with $p-value = 0.021125249447736832 << 0.05$
+8 is better than 1with $p-value = 3.359665382944776e-08 << 0.05$
+8 is better than 2with $p-value = 5.821407394220561e-06 << 0.05$
+8 is better than 3with $p-value = 0.017356499982512985 << 0.05$
+9 is better than 1with $p-value = 3.321895830209886e-08 << 0.05$
+9 is better than 2with $p-value = 8.297074365564139e-07 << 0.05$
+9 is better than 3with $p-value = 0.0012606880776852532 << 0.05$
+9 is better than 4with $p-value = 0.003224497610805471 << 0.05$
+10 is better than 1with $p-value = 3.33601593954475e-08 << 0.05$
+10 is better than 2with $p-value = 1.834892055407562e-06 << 0.05$
+10 is better than 3with $p-value = 0.0021401234555862656 << 0.05$
+10 is better than 4with $p-value = 0.00586714991603424 << 0.05$
+end
+sigmoid
+1 is better than 2with $p-value = 0.032870685164120256 << 0.05$
+1 is better than 3with $p-value = 0.0005296398920992696 << 0.05$
+1 is better than 4with $p-value = 5.147970314964098e-05 << 0.05$
+1 is better than 5with $p-value = 0.00010447202637981288 << 0.05$
+1 is better than 6with $p-value = 2.699121329444215e-06 << 0.05$
+1 is better than 7with $p-value = 6.2116319451303415e-06 << 0.05$
+1 is better than 8with $p-value = 1.7407707220554683e-05 << 0.05$
+1 is better than 9with $p-value = 8.996418423618819e-06 << 0.05$
+1 is better than 10with $p-value = 9.58738753112746e-07 << 0.05$
+2 is better than 3with $p-value = 0.019765862351308484 << 0.05$
+2 is better than 4with $p-value = 0.0003952490996714351 << 0.05$
+2 is better than 5with $p-value = 0.0016467106970130378 << 0.05$
+2 is better than 6with $p-value = 2.0947401435828807e-06 << 0.05$
+2 is better than 7with $p-value = 2.3115606905048005e-05 << 0.05$
+2 is better than 8with $p-value = 4.339351273575402e-05 << 0.05$
+2 is better than 9with $p-value = 2.3210772398299552e-05 << 0.05$
+2 is better than 10with $p-value = 2.584770408945784e-07 << 0.05$
+3 is better than 4with $p-value = 0.0218758670454228 << 0.05$
+3 is better than 6with $p-value = 0.0001352655737737545 << 0.05$
+3 is better than 7with $p-value = 0.0018873663610316667 << 0.05$
+3 is better than 8with $p-value = 0.0017292571369003718 << 0.05$
+3 is better than 9with $p-value = 0.0003098986940365974 << 0.05$
+3 is better than 10with $p-value = 2.406797408880862e-06 << 0.05$
+4 is better than 9with $p-value = 0.00487435582330155 << 0.05$
+4 is better than 10with $p-value = 0.000926592194318516 << 0.05$
+5 is better than 6with $p-value = 0.04790306918051384 << 0.05$
+5 is better than 9with $p-value = 0.005908737732737223 << 0.05$
+5 is better than 10with $p-value = 0.0014545374097558507 << 0.05$
+6 is better than 10with $p-value = 0.033843782519991254 << 0.05$
+7 is better than 9with $p-value = 0.02334426964630911 << 0.05$
+7 is better than 10with $p-value = 0.011912027741952304 << 0.05$
+8 is better than 9with $p-value = 0.03707192066787918 << 0.05$
+8 is better than 10with $p-value = 0.017399091663448628 << 0.05$
+end
+poly
+1 is better than 7with $p-value = 0.016211130832255227 << 0.05$
+2 is better than 7with $p-value = 0.023980147324108525 << 0.05$
+4 is better than 3with $p-value = 0.038049880821656945 << 0.05$
+4 is better than 6with $p-value = 0.03180910381032764 << 0.05$
+4 is better than 7with $p-value = 0.0022388109674864837 << 0.05$
+4 is better than 8with $p-value = 0.011810086857800698 << 0.05$
+4 is better than 9with $p-value = 0.036909042199175394 << 0.05$
+5 is better than 6with $p-value = 0.02724045342468246 << 0.05$
+5 is better than 7with $p-value = 0.0026314833996247855 << 0.05$
+5 is better than 8with $p-value = 0.020883453072342715 << 0.05$
+end
+gini
+3 is better than 2with $p-value = 3.369165874485605e-08 << 0.05$
+4 is better than 2with $p-value = 3.369165874485605e-08 << 0.05$
+4 is better than 3with $p-value = 0.0002393402767260919 << 0.05$
+5 is better than 2with $p-value = 3.373924868679945e-08 << 0.05$
+5 is better than 3with $p-value = 3.905114828712665e-08 << 0.05$
+5 is better than 4with $p-value = 8.89515174216838e-07 << 0.05$
+6 is better than 2with $p-value = 3.32659675084765e-08 << 0.05$
+6 is better than 3with $p-value = 3.32659675084765e-08 << 0.05$
+6 is better than 4with $p-value = 1.1631172048162903e-07 << 0.05$
+7 is better than 2with $p-value = 3.354923873610264e-08 << 0.05$
+7 is better than 3with $p-value = 3.354923873610264e-08 << 0.05$
+7 is better than 4with $p-value = 3.354923873610264e-08 << 0.05$
+7 is better than 5with $p-value = 0.004142446163345046 << 0.05$
+7 is better than 6with $p-value = 0.036909042199175394 << 0.05$
+7 is better than 8with $p-value = 0.008915564829324391 << 0.05$
+8 is better than 2with $p-value = 3.364412714572691e-08 << 0.05$
+8 is better than 3with $p-value = 4.542178207761008e-08 << 0.05$
+8 is better than 4with $p-value = 5.169811496621503e-07 << 0.05$
+end
+entropy
+3 is better than 2with $p-value = 3.33601593954475e-08 << 0.05$
+4 is better than 2with $p-value = 3.30314983355312e-08 << 0.05$
+4 is better than 3with $p-value = 3.9267732624514025e-06 << 0.05$
+5 is better than 2with $p-value = 3.354923873610264e-08 << 0.05$
+5 is better than 3with $p-value = 2.520434908516378e-06 << 0.05$
+5 is better than 4with $p-value = 0.015583499327002495 << 0.05$
+6 is better than 2with $p-value = 3.345458297879516e-08 << 0.05$
+6 is better than 3with $p-value = 2.949556409166229e-07 << 0.05$
+6 is better than 4with $p-value = 6.905532651299152e-06 << 0.05$
+6 is better than 5with $p-value = 0.016215200963596733 << 0.05$
+7 is better than 2with $p-value = 3.345458297879516e-08 << 0.05$
+7 is better than 3with $p-value = 4.156645010744498e-08 << 0.05$
+7 is better than 4with $p-value = 5.391046531737387e-07 << 0.05$
+7 is better than 8with $p-value = 0.011053479710737132 << 0.05$
+8 is better than 2with $p-value = 3.32659675084765e-08 << 0.05$
+8 is better than 3with $p-value = 1.077494640351656e-07 << 0.05$
+8 is better than 4with $p-value = 0.00012610196788938088 << 0.05$
+end
+
+
+champion:
+
+
+MLP is better than SGDwith $p-value = 3.6377593628746756e-08 << 0.05$
+MLP is better than linearwith $p-value = 9.576773554674227e-07 << 0.05$
+MLP is better than sigmoidwith $p-value = 3.383460383922705e-08 << 0.05$
+MLP is better than polywith $p-value = 2.5541088976312905e-06 << 0.05$
+Gradient_Boosting is better than MLPwith $p-value = 2.2329080179093504e-06 << 0.05$
+Gradient_Boosting is better than SGDwith $p-value = 3.3313034519733685e-08 << 0.05$
+Gradient_Boosting is better than XGBoostwith $p-value = 0.004981041245010032 << 0.05$
+Gradient_Boosting is better than linearwith $p-value = 3.33601593954475e-08 << 0.05$
+Gradient_Boosting is better than sigmoidwith $p-value = 3.33601593954475e-08 << 0.05$
+Gradient_Boosting is better than polywith $p-value = 3.317200684107224e-08 << 0.05$
+XGBoost is better than MLPwith $p-value = 0.0015118180225402727 << 0.05$
+XGBoost is better than SGDwith $p-value = 3.340734219524334e-08 << 0.05$
+XGBoost is better than linearwith $p-value = 3.60214627331457e-08 << 0.05$
+XGBoost is better than sigmoidwith $p-value = 3.345458297879516e-08 << 0.05$
+XGBoost is better than polywith $p-value = 3.32659675084765e-08 << 0.05$
+linear is better than SGDwith $p-value = 2.9819753526241823e-07 << 0.05$
+linear is better than sigmoidwith $p-value = 4.004552077555396e-06 << 0.05$
+rbf is better than MLPwith $p-value = 7.106386831300515e-08 << 0.05$
+rbf is better than SGDwith $p-value = 3.373924868679945e-08 << 0.05$
+rbf is better than Gradient_Boostingwith $p-value = 0.0001097451807481741 << 0.05$
+rbf is better than XGBoostwith $p-value = 1.502163567847311e-06 << 0.05$
+rbf is better than linearwith $p-value = 3.378689703156949e-08 << 0.05$
+rbf is better than sigmoidwith $p-value = 3.378689703156949e-08 << 0.05$
+rbf is better than polywith $p-value = 3.359665382944776e-08 << 0.05$
+rbf is better than entropywith $p-value = 0.0005031737774854285 << 0.05$
+sigmoid is better than SGDwith $p-value = 0.026462371451291915 << 0.05$
+poly is better than SGDwith $p-value = 1.942473375055319e-07 << 0.05$
+poly is better than sigmoidwith $p-value = 4.5206257432870565e-07 << 0.05$
+gini is better than MLPwith $p-value = 5.6705799415440065e-08 << 0.05$
+gini is better than SGDwith $p-value = 3.354923873610264e-08 << 0.05$
+gini is better than Gradient_Boostingwith $p-value = 0.0011584595034522273 << 0.05$
+gini is better than XGBoostwith $p-value = 2.2237034630195363e-06 << 0.05$
+gini is better than linearwith $p-value = 3.359665382944776e-08 << 0.05$
+gini is better than sigmoidwith $p-value = 3.359665382944776e-08 << 0.05$
+gini is better than polywith $p-value = 3.340734219524334e-08 << 0.05$
+gini is better than entropywith $p-value = 0.002533765303623203 << 0.05$
+entropy is better than MLPwith $p-value = 3.0809177057150904e-06 << 0.05$
+entropy is better than SGDwith $p-value = 3.350188180582478e-08 << 0.05$
+entropy is better than XGBoostwith $p-value = 0.004306252514970851 << 0.05$
+entropy is better than linearwith $p-value = 4.8737624191935365e-08 << 0.05$
+entropy is better than sigmoidwith $p-value = 3.354923873610264e-08 << 0.05$
+entropy is better than polywith $p-value = 5.6243187180920506e-08 << 0.05$
+
+
+
+CMDS:
+
+linear
+10 is better than 2with $p-value = 0.0141161362679615 << 0.05$
+10 is better than 8with $p-value = 0.04274364218023542 << 0.05$
+end
+rbf
+2 is better than 1with $p-value = 2.7234109512275273e-05 << 0.05$
+3 is better than 1with $p-value = 1.821444675162986e-06 << 0.05$
+3 is better than 2with $p-value = 0.0033774115789531062 << 0.05$
+4 is better than 1with $p-value = 5.517657989172938e-07 << 0.05$
+4 is better than 2with $p-value = 0.005875060813997312 << 0.05$
+5 is better than 1with $p-value = 3.4688744138009935e-06 << 0.05$
+5 is better than 2with $p-value = 0.02396964462501661 << 0.05$
+6 is better than 1with $p-value = 1.58232561061608e-06 << 0.05$
+6 is better than 2with $p-value = 0.025479658070912407 << 0.05$
+7 is better than 1with $p-value = 7.720204562039741e-07 << 0.05$
+7 is better than 2with $p-value = 0.013560538799194125 << 0.05$
+8 is better than 1with $p-value = 1.074510167765041e-06 << 0.05$
+8 is better than 2with $p-value = 0.0061233545382759266 << 0.05$
+9 is better than 1with $p-value = 1.2143977274805255e-06 << 0.05$
+9 is better than 2with $p-value = 0.016775509695217964 << 0.05$
+10 is better than 1with $p-value = 5.384780648009398e-07 << 0.05$
+10 is better than 2with $p-value = 0.007957637440213052 << 0.05$
+end
+sigmoid
+1 is better than 3with $p-value = 0.0016606990933608309 << 0.05$
+1 is better than 4with $p-value = 0.00034082156930758317 << 0.05$
+1 is better than 5with $p-value = 1.2464861245662173e-06 << 0.05$
+1 is better than 6with $p-value = 6.139776064725045e-08 << 0.05$
+1 is better than 7with $p-value = 2.42663380727656e-07 << 0.05$
+1 is better than 8with $p-value = 1.1045563822894963e-07 << 0.05$
+1 is better than 9with $p-value = 3.369165874485605e-08 << 0.05$
+1 is better than 10with $p-value = 2.42663380727656e-07 << 0.05$
+2 is better than 3with $p-value = 0.011498409994225535 << 0.05$
+2 is better than 4with $p-value = 0.0028842050269485713 << 0.05$
+2 is better than 5with $p-value = 7.93289617192293e-06 << 0.05$
+2 is better than 6with $p-value = 1.4704586278404883e-07 << 0.05$
+2 is better than 7with $p-value = 4.228767082846177e-07 << 0.05$
+2 is better than 8with $p-value = 1.9546748162916727e-07 << 0.05$
+2 is better than 9with $p-value = 8.20862516774485e-08 << 0.05$
+2 is better than 10with $p-value = 5.218147189279058e-07 << 0.05$
+3 is better than 5with $p-value = 0.003257150895632543 << 0.05$
+3 is better than 6with $p-value = 7.940177155649571e-06 << 0.05$
+3 is better than 7with $p-value = 5.4544288828404835e-05 << 0.05$
+3 is better than 8with $p-value = 1.8484211849876895e-06 << 0.05$
+3 is better than 9with $p-value = 2.581601162739462e-07 << 0.05$
+3 is better than 10with $p-value = 5.506647900084545e-06 << 0.05$
+4 is better than 5with $p-value = 0.02255715930724623 << 0.05$
+4 is better than 6with $p-value = 3.891571707545915e-05 << 0.05$
+4 is better than 7with $p-value = 0.00023992896625768184 << 0.05$
+4 is better than 8with $p-value = 8.4103325317138e-06 << 0.05$
+4 is better than 9with $p-value = 1.321884877466858e-06 << 0.05$
+4 is better than 10with $p-value = 1.0158034113547453e-05 << 0.05$
+5 is better than 6with $p-value = 0.013687275706106736 << 0.05$
+5 is better than 8with $p-value = 0.005693249868161107 << 0.05$
+5 is better than 9with $p-value = 0.002146465561542031 << 0.05$
+5 is better than 10with $p-value = 0.000846808611029373 << 0.05$
+6 is better than 10with $p-value = 0.011100457981015248 << 0.05$
+7 is better than 9with $p-value = 0.017343728166323773 << 0.05$
+7 is better than 10with $p-value = 0.0023405723391044975 << 0.05$
+end
+poly
+end
+gini
+3 is better than 2with $p-value = 0.0015152459467277827 << 0.05$
+4 is better than 2with $p-value = 3.369165874485605e-08 << 0.05$
+4 is better than 3with $p-value = 3.927012598031503e-08 << 0.05$
+5 is better than 2with $p-value = 3.345458297879516e-08 << 0.05$
+5 is better than 3with $p-value = 3.354923873610264e-08 << 0.05$
+5 is better than 4with $p-value = 3.922381956893683e-07 << 0.05$
+6 is better than 2with $p-value = 3.354923873610264e-08 << 0.05$
+6 is better than 3with $p-value = 3.364412714572691e-08 << 0.05$
+6 is better than 4with $p-value = 1.5738132156954291e-07 << 0.05$
+6 is better than 5with $p-value = 0.018516431714045514 << 0.05$
+6 is better than 8with $p-value = 0.006113165120709926 << 0.05$
+7 is better than 2with $p-value = 3.298477726158304e-08 << 0.05$
+7 is better than 3with $p-value = 3.307827691719678e-08 << 0.05$
+7 is better than 4with $p-value = 2.062266242292332e-07 << 0.05$
+8 is better than 2with $p-value = 3.354923873610264e-08 << 0.05$
+8 is better than 3with $p-value = 3.364412714572691e-08 << 0.05$
+8 is better than 4with $p-value = 6.347630382594384e-07 << 0.05$
+end
+entropy
+3 is better than 2with $p-value = 7.077792409186855e-08 << 0.05$
+4 is better than 2with $p-value = 3.340734219524334e-08 << 0.05$
+4 is better than 3with $p-value = 3.378689703156949e-08 << 0.05$
+5 is better than 2with $p-value = 3.32659675084765e-08 << 0.05$
+5 is better than 3with $p-value = 3.364412714572691e-08 << 0.05$
+5 is better than 4with $p-value = 3.244951121730254e-06 << 0.05$
+5 is better than 8with $p-value = 0.007106568963673482 << 0.05$
+6 is better than 2with $p-value = 3.33601593954475e-08 << 0.05$
+6 is better than 3with $p-value = 3.373924868679945e-08 << 0.05$
+6 is better than 4with $p-value = 3.3004825390790187e-06 << 0.05$
+6 is better than 8with $p-value = 0.00893167349268047 << 0.05$
+7 is better than 2with $p-value = 3.32659675084765e-08 << 0.05$
+7 is better than 3with $p-value = 3.364412714572691e-08 << 0.05$
+7 is better than 4with $p-value = 2.520434908516378e-06 << 0.05$
+7 is better than 8with $p-value = 0.01674221299583265 << 0.05$
+8 is better than 2with $p-value = 3.340734219524334e-08 << 0.05$
+8 is better than 3with $p-value = 3.378689703156949e-08 << 0.05$
+8 is better than 4with $p-value = 0.00018500728933028228 << 0.05$
+end
+
+
+champion:
+MLP is better than SGDwith $p-value = 3.345458297879516e-08 << 0.05$
+MLP is better than Gradient_Boostingwith $p-value = 1.6651010092668866e-07 << 0.05$
+MLP is better than XGBoostwith $p-value = 3.576894089312474e-08 << 0.05$
+MLP is better than linearwith $p-value = 3.3313034519733685e-08 << 0.05$
+MLP is better than sigmoidwith $p-value = 3.345458297879516e-08 << 0.05$
+MLP is better than polywith $p-value = 3.345458297879516e-08 << 0.05$
+MLP is better than giniwith $p-value = 6.311342878419124e-05 << 0.05$
+MLP is better than entropywith $p-value = 0.0004518105504214929 << 0.05$
+SGD is better than sigmoidwith $p-value = 3.378689703156949e-08 << 0.05$
+Gradient_Boosting is better than SGDwith $p-value = 3.345458297879516e-08 << 0.05$
+Gradient_Boosting is better than XGBoostwith $p-value = 1.8124087515422177e-05 << 0.05$
+Gradient_Boosting is better than linearwith $p-value = 3.3313034519733685e-08 << 0.05$
+Gradient_Boosting is better than sigmoidwith $p-value = 3.345458297879516e-08 << 0.05$
+Gradient_Boosting is better than polywith $p-value = 3.345458297879516e-08 << 0.05$
+XGBoost is better than SGDwith $p-value = 3.354923873610264e-08 << 0.05$
+XGBoost is better than linearwith $p-value = 1.1676627294609542e-07 << 0.05$
+XGBoost is better than sigmoidwith $p-value = 3.354923873610264e-08 << 0.05$
+XGBoost is better than polywith $p-value = 4.1740953171447856e-07 << 0.05$
+linear is better than SGDwith $p-value = 7.296731145203488e-07 << 0.05$
+linear is better than sigmoidwith $p-value = 3.364412714572691e-08 << 0.05$
+rbf is better than SGDwith $p-value = 3.359665382944776e-08 << 0.05$
+rbf is better than Gradient_Boostingwith $p-value = 1.074510167765041e-06 << 0.05$
+rbf is better than XGBoostwith $p-value = 6.065198471542302e-08 << 0.05$
+rbf is better than linearwith $p-value = 3.345458297879516e-08 << 0.05$
+rbf is better than sigmoidwith $p-value = 3.359665382944776e-08 << 0.05$
+rbf is better than polywith $p-value = 3.359665382944776e-08 << 0.05$
+rbf is better than giniwith $p-value = 0.0005445492845231854 << 0.05$
+rbf is better than entropywith $p-value = 0.0020479652298872474 << 0.05$
+poly is better than SGDwith $p-value = 4.2187820598186065e-07 << 0.05$
+poly is better than sigmoidwith $p-value = 3.378689703156949e-08 << 0.05$
+gini is better than SGDwith $p-value = 3.307827691719678e-08 << 0.05$
+gini is better than Gradient_Boostingwith $p-value = 0.0005945781289786182 << 0.05$
+gini is better than XGBoostwith $p-value = 8.024726080176986e-08 << 0.05$
+gini is better than linearwith $p-value = 3.293811363606447e-08 << 0.05$
+gini is better than sigmoidwith $p-value = 3.307827691719678e-08 << 0.05$
+gini is better than polywith $p-value = 3.307827691719678e-08 << 0.05$
+entropy is better than SGDwith $p-value = 3.354923873610264e-08 << 0.05$
+entropy is better than Gradient_Boostingwith $p-value = 0.003352821460689414 << 0.05$
+entropy is better than XGBoostwith $p-value = 3.380242043224803e-07 << 0.05$
+entropy is better than linearwith $p-value = 3.340734219524334e-08 << 0.05$
+entropy is better than sigmoidwith $p-value = 3.354923873610264e-08 << 0.05$
+entropy is better than polywith $p-value = 3.354923873610264e-08 << 0.05$
+
+AE:
+
+
+linear
+3 is better than 1with $p-value = 0.0033864951711268802 << 0.05$
+3 is better than 2with $p-value = 0.028090397844123823 << 0.05$
+3 is better than 9with $p-value = 0.03484092078652237 << 0.05$
+4 is better than 1with $p-value = 0.011882399640100917 << 0.05$
+5 is better than 1with $p-value = 0.013596709389256475 << 0.05$
+6 is better than 1with $p-value = 0.0247978166526593 << 0.05$
+7 is better than 1with $p-value = 0.008263087863224059 << 0.05$
+10 is better than 1with $p-value = 0.007664512493226701 << 0.05$
+end
+rbf
+3 is better than 1with $p-value = 0.011898856434401656 << 0.05$
+4 is better than 1with $p-value = 0.0006928459558267789 << 0.05$
+4 is better than 2with $p-value = 0.003247084970098052 << 0.05$
+5 is better than 1with $p-value = 4.607381066005018e-05 << 0.05$
+5 is better than 2with $p-value = 0.00023860584433932979 << 0.05$
+5 is better than 3with $p-value = 0.03701083710807816 << 0.05$
+6 is better than 1with $p-value = 0.00015041788336901625 << 0.05$
+6 is better than 2with $p-value = 0.0011590112837486582 << 0.05$
+7 is better than 1with $p-value = 1.729012151200846e-05 << 0.05$
+7 is better than 2with $p-value = 0.00015950649209296242 << 0.05$
+7 is better than 3with $p-value = 0.016812991190741214 << 0.05$
+8 is better than 1with $p-value = 1.4198810015702213e-06 << 0.05$
+8 is better than 2with $p-value = 4.252970125219498e-06 << 0.05$
+8 is better than 3with $p-value = 0.002145558887647943 << 0.05$
+8 is better than 4with $p-value = 0.02042894789779334 << 0.05$
+8 is better than 6with $p-value = 0.015142400030528004 << 0.05$
+9 is better than 1with $p-value = 1.0172597650201431e-06 << 0.05$
+9 is better than 2with $p-value = 3.290626979716091e-06 << 0.05$
+9 is better than 3with $p-value = 0.006365977168936758 << 0.05$
+9 is better than 6with $p-value = 0.03688189925324984 << 0.05$
+10 is better than 1with $p-value = 3.6601339961773704e-06 << 0.05$
+10 is better than 2with $p-value = 1.7095917452236494e-06 << 0.05$
+10 is better than 3with $p-value = 0.009200402973224053 << 0.05$
+10 is better than 6with $p-value = 0.03906449291169701 << 0.05$
+end
+sigmoid
+1 is better than 2with $p-value = 0.0018075334256528154 << 0.05$
+1 is better than 3with $p-value = 8.963868028352083e-06 << 0.05$
+1 is better than 4with $p-value = 1.4214047924201238e-06 << 0.05$
+1 is better than 5with $p-value = 1.078149884434371e-05 << 0.05$
+1 is better than 6with $p-value = 1.8503606133282922e-06 << 0.05$
+1 is better than 7with $p-value = 2.4092643869961604e-06 << 0.05$
+1 is better than 8with $p-value = 1.8134519016823767e-07 << 0.05$
+1 is better than 9with $p-value = 3.4252448440490376e-07 << 0.05$
+1 is better than 10with $p-value = 8.121637341384968e-08 << 0.05$
+2 is better than 3with $p-value = 0.04401178143135292 << 0.05$
+2 is better than 4with $p-value = 0.014667190768808916 << 0.05$
+2 is better than 5with $p-value = 0.041562766009755746 << 0.05$
+2 is better than 6with $p-value = 0.005900805658193986 << 0.05$
+2 is better than 7with $p-value = 0.0009695107902032016 << 0.05$
+2 is better than 8with $p-value = 0.0003067963793321633 << 0.05$
+2 is better than 9with $p-value = 0.00022721079275319898 << 0.05$
+2 is better than 10with $p-value = 1.915759212454217e-05 << 0.05$
+3 is better than 7with $p-value = 0.03928187017896647 << 0.05$
+3 is better than 8with $p-value = 0.012324992597215414 << 0.05$
+3 is better than 9with $p-value = 0.018587612277555215 << 0.05$
+3 is better than 10with $p-value = 0.0011126786473661682 << 0.05$
+4 is better than 8with $p-value = 0.03697690392888829 << 0.05$
+4 is better than 9with $p-value = 0.04797330364142104 << 0.05$
+4 is better than 10with $p-value = 0.004671412250484414 << 0.05$
+5 is better than 7with $p-value = 0.03701083710807816 << 0.05$
+5 is better than 8with $p-value = 0.020500091520018863 << 0.05$
+5 is better than 9with $p-value = 0.018574260440302134 << 0.05$
+5 is better than 10with $p-value = 0.00299296816078061 << 0.05$
+6 is better than 10with $p-value = 0.008268173023210312 << 0.05$
+end
+poly
+6 is better than 5with $p-value = 0.047864047129314954 << 0.05$
+6 is better than 8with $p-value = 0.02330305588120178 << 0.05$
+6 is better than 9with $p-value = 0.03912759919233676 << 0.05$
+6 is better than 10with $p-value = 0.02254201918285599 << 0.05$
+end
+gini
+3 is better than 2with $p-value = 3.298477726158304e-08 << 0.05$
+4 is better than 2with $p-value = 3.321895830209886e-08 << 0.05$
+4 is better than 3with $p-value = 2.5178597486437024e-06 << 0.05$
+5 is better than 2with $p-value = 3.354923873610264e-08 << 0.05$
+5 is better than 3with $p-value = 7.002025262641145e-08 << 0.05$
+5 is better than 4with $p-value = 0.0013219370620683654 << 0.05$
+6 is better than 2with $p-value = 3.26130718433597e-08 << 0.05$
+6 is better than 3with $p-value = 3.229082187692615e-08 << 0.05$
+6 is better than 4with $p-value = 4.403571705576531e-06 << 0.05$
+6 is better than 5with $p-value = 0.0028397509452406096 << 0.05$
+7 is better than 2with $p-value = 3.345458297879516e-08 << 0.05$
+7 is better than 3with $p-value = 3.3125113065915595e-08 << 0.05$
+7 is better than 4with $p-value = 5.901666304707563e-07 << 0.05$
+7 is better than 5with $p-value = 0.00015909230580025968 << 0.05$
+8 is better than 2with $p-value = 3.340734219524334e-08 << 0.05$
+8 is better than 3with $p-value = 3.845441413488163e-08 << 0.05$
+8 is better than 4with $p-value = 2.8848737960748982e-05 << 0.05$
+8 is better than 5with $p-value = 0.009925565142974883 << 0.05$
+end
+entropy
+3 is better than 2with $p-value = 5.2575994129830926e-08 << 0.05$
+4 is better than 2with $p-value = 3.32659675084765e-08 << 0.05$
+4 is better than 3with $p-value = 5.373630316725103e-05 << 0.05$
+5 is better than 2with $p-value = 3.350188180582478e-08 << 0.05$
+5 is better than 3with $p-value = 1.1737471251175397e-07 << 0.05$
+5 is better than 4with $p-value = 2.372476749145135e-06 << 0.05$
+6 is better than 2with $p-value = 3.364412714572691e-08 << 0.05$
+6 is better than 3with $p-value = 3.905114828712665e-08 << 0.05$
+6 is better than 4with $p-value = 4.840268928923598e-08 << 0.05$
+6 is better than 5with $p-value = 0.01978442963869867 << 0.05$
+7 is better than 2with $p-value = 3.33601593954475e-08 << 0.05$
+7 is better than 3with $p-value = 3.3313034519733685e-08 << 0.05$
+8 is better than 2with $p-value = 3.33601593954475e-08 << 0.05$
+8 is better than 3with $p-value = 5.61664032408906e-08 << 0.05$
+8 is better than 4with $p-value = 1.4296250089798952e-07 << 0.05$end
+
+
+
+Champion:
+
+
+SGD is better than MLPwith $p-value = 3.354923873610264e-08 << 0.05$
+SGD is better than sigmoidwith $p-value = 3.378689703156949e-08 << 0.05$
+Gradient_Boosting is better than MLPwith $p-value = 3.32659675084765e-08 << 0.05$
+Gradient_Boosting is better than SGDwith $p-value = 8.154164281203136e-08 << 0.05$
+Gradient_Boosting is better than sigmoidwith $p-value = 3.350188180582478e-08 << 0.05$
+XGBoost is better than MLPwith $p-value = 3.345458297879516e-08 << 0.05$
+XGBoost is better than SGDwith $p-value = 3.369165874485605e-08 << 0.05$
+XGBoost is better than linearwith $p-value = 0.0026528766033606234 << 0.05$
+XGBoost is better than sigmoidwith $p-value = 3.369165874485605e-08 << 0.05$
+XGBoost is better than polywith $p-value = 0.0039783947757636535 << 0.05$
+linear is better than MLPwith $p-value = 3.345458297879516e-08 << 0.05$
+linear is better than SGDwith $p-value = 2.9855960352016943e-07 << 0.05$
+linear is better than sigmoidwith $p-value = 3.369165874485605e-08 << 0.05$
+rbf is better than MLPwith $p-value = 3.340734219524334e-08 << 0.05$
+rbf is better than SGDwith $p-value = 3.364412714572691e-08 << 0.05$
+rbf is better than Gradient_Boostingwith $p-value = 7.867607304175565e-06 << 0.05$
+rbf is better than XGBoostwith $p-value = 9.854936129821552e-05 << 0.05$
+rbf is better than linearwith $p-value = 9.460664900809917e-07 << 0.05$
+rbf is better than sigmoidwith $p-value = 3.364412714572691e-08 << 0.05$
+rbf is better than polywith $p-value = 8.28777266860691e-07 << 0.05$
+sigmoid is better than MLPwith $p-value = 3.354923873610264e-08 << 0.05$
+poly is better than MLPwith $p-value = 3.33601593954475e-08 << 0.05$
+poly is better than SGDwith $p-value = 1.5658250051862375e-07 << 0.05$
+poly is better than sigmoidwith $p-value = 3.359665382944776e-08 << 0.05$
+gini is better than MLPwith $p-value = 3.345458297879516e-08 << 0.05$
+gini is better than SGDwith $p-value = 3.369165874485605e-08 << 0.05$
+gini is better than Gradient_Boostingwith $p-value = 5.124425580859193e-06 << 0.05$
+gini is better than XGBoostwith $p-value = 8.395566965455684e-05 << 0.05$
+gini is better than linearwith $p-value = 7.790169684427878e-07 << 0.05$
+gini is better than sigmoidwith $p-value = 3.369165874485605e-08 << 0.05$
+gini is better than polywith $p-value = 3.89448015939692e-07 << 0.05$
+entropy is better than MLPwith $p-value = 3.350188180582478e-08 << 0.05$
+entropy is better than SGDwith $p-value = 3.373924868679945e-08 << 0.05$
+entropy is better than Gradient_Boostingwith $p-value = 8.796422605193451e-07 << 0.05$
+entropy is better than XGBoostwith $p-value = 6.165096490543661e-06 << 0.05$
+entropy is better than linearwith $p-value = 2.093362201305912e-07 << 0.05$
+entropy is better than sigmoidwith $p-value = 3.373924868679945e-08 << 0.05$
+entropy is better than polywith $p-value = 1.9303369283550883e-07 << 0.05$
+
+
+best Champion:
+poly_normal is better than MLP_PCAwith $p-value = 0.013607566810666924 << 0.05$
+poly_normal is better than rbf_ICAwith $p-value = 1.0676394090451628e-05 << 0.05$
+poly_normal is better than entropy_aewith $p-value = 3.26130718433597e-08 << 0.05$
+MLP_PCA is better than rbf_ICAwith $p-value = 0.014606406893185249 << 0.05$
+MLP_PCA is better than entropy_aewith $p-value = 3.252071642698878e-08 << 0.05$
+rbf_ICA is better than entropy_aewith $p-value = 3.2844958493403727e-08 << 0.05$
+MLP_CMDS is better than rbf_ICAwith $p-value = 9.96854604533938e-06 << 0.05$
+MLP_CMDS is better than entropy_aewith $p-value = 3.252071642698878e-08 << 0.05$
+
+
+
+
+
+
+
+

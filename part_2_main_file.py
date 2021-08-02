@@ -143,131 +143,131 @@ def get_impute_options(data_as_is, col):
 
 
 if __name__ == '__main__':
-    # data_as_is, missing_data_as_is, nan_idxs, imputed_with_median = prepare_all()
-    # real_labels = data_as_is["odor"]
-    # # data_as_is = data_as_is.drop("odor", axis=1)
-    # data = data_as_is
-    # imputed_data = imputed_with_median.copy().values
-    # model = IsolationForest()
-    # model.fit(data)
-    # print(imputed_data)
-    # for i, j in nan_idxs:
-    #     row = imputed_data[i]
-    #     # print(j)
-    #     impute_options = get_impute_options(data_as_is, j)
-    #     copy = [e for e in row]
-    #     scores = {}
-    #     # print(len(row))
-    #     for option in impute_options:
-    #         copy[j] = option
-    #         # print(copy)
-    #         scores[option] = model.score_samples([copy])
-    #     best_option = max(scores, key=scores.get)
-    #     row[j] = best_option
-    #     imputed_data[i] = row
-    # column_names = ["class", "cap-shape", "cap-surface", "cap-color", "bruises", "odor", "gill-attachment",
-    #                 "gill-spacing", "gill-size", "gill-color", "stalk-shape", "stalk-surface-above-ring",
-    #                 "stalk-surface-below-ring", "stalk-color-above-ring", "stalk-color-below-ring", "veil-type",
-    #                 "veil-color", "ring-number", "ring-type", "spore-print-color", "population", "habitat"]
-    #
-    # df = pd.DataFrame(imputed_data, columns=column_names)
-    # odor = df["odor"]
-    # # since we want to predict the mushrooms' odor it's needed to drop this feature from the df
-    # X = df.drop(["odor"], axis=1)
-    # scaler = MinMaxScaler()
-    # X = scaler.fit_transform(X)
-    # pd.DataFrame(X).to_csv("missing data/imputed_data.csv")
-    # real_data = pd.DataFrame(data, columns=column_names)
-    # real_data = real_data.drop(["odor"], axis=1)
-    # real_data = scaler.transform(real_data)
-    # real_data_list = []
-    # real_labels_list = []
-    # for i in range(20):
-    #     real_data_i, _, real_labels_i, _ = train_test_split(real_data, real_labels, train_size=0.48)
-    #     real_data_list.append(real_data_i)
-    #     real_labels_list.append(real_labels_i)
-    # print("Isolation Forest")
-    # for i in range(20):
-    #     clf = SVC(C=0.8)
-    #     clf.fit(real_data_list[i], real_labels_list[i])
-    #     labels = clf.predict(X)
-    #     print(f1_score(odor, labels, average='micro'))
-    #     # print(clf.score(X, odor))
-    #
-    # print("Imputing with median")
-    # df = imputed_with_median
-    # odor = df["odor"]
-    # X = df.drop(["odor"], axis=1)
-    # X = scaler.transform(X)
-    # for i in range(20):
-    #     clf = SVC(C=0.8)
-    #     clf.fit(real_data_list[i], real_labels_list[i])
-    #     labels = clf.predict(X)
-    #     print(f1_score(odor, labels, average='micro'))
-    #     # print(clf.score(X, odor))
-    #
-    # print("Iterative Imputer")
-    # imp_mean = IterativeImputer()
-    # imp_mean.fit(data_as_is)
-    # imputed_data = imp_mean.transform(missing_data_as_is)
-    # df = pd.DataFrame(imputed_data, columns=column_names)
-    # odor = df["odor"]
-    # odor = odor.astype('int')
-    # # print(odor)
-    # # print(odor.dtype)
-    # # since we want to predict the mushrooms' odor it's needed to drop this feature from the df
-    # X = df.drop(["odor"], axis=1)
-    # X = scaler.transform(X)
-    # for i in range(20):
-    #     clf = SVC(C=0.8)
-    #     clf.fit(real_data_list[i], real_labels_list[i])
-    #     labels = clf.predict(X)
-    #     print(f1_score(odor, labels, average='micro'))
-    #     # print(clf.score(X, odor))
-    #
-    # print("KNN Imputer")
-    # imp_mean = KNNImputer()
-    # imp_mean.fit(data_as_is)
-    # imputed_data = imp_mean.transform(missing_data_as_is)
-    # df = pd.DataFrame(imputed_data, columns=column_names)
-    # odor = df["odor"]
-    # odor = odor.astype('int')
-    # # since we want to predict the mushrooms' odor it's needed to drop this feature from the df
-    # X = df.drop(["odor"], axis=1)
-    # X = scaler.transform(X)
-    # for i in range(20):
-    #     clf = SVC(C=0.8)
-    #     clf.fit(real_data_list[i], real_labels_list[i])
-    #     labels = clf.predict(X)
-    #     print(f1_score(odor, labels, average='micro'))
-    #     # print(clf.score(X, odor))
+    data_as_is, missing_data_as_is, nan_idxs, imputed_with_median = prepare_all()
+    real_labels = data_as_is["odor"]
+    # data_as_is = data_as_is.drop("odor", axis=1)
+    data = data_as_is
+    imputed_data = imputed_with_median.copy().values
+    model = IsolationForest()
+    model.fit(data)
+    print(imputed_data)
+    for i, j in nan_idxs:
+        row = imputed_data[i]
+        # print(j)
+        impute_options = get_impute_options(data_as_is, j)
+        copy = [e for e in row]
+        scores = {}
+        # print(len(row))
+        for option in impute_options:
+            copy[j] = option
+            # print(copy)
+            scores[option] = model.score_samples([copy])
+        best_option = max(scores, key=scores.get)
+        row[j] = best_option
+        imputed_data[i] = row
+    column_names = ["class", "cap-shape", "cap-surface", "cap-color", "bruises", "odor", "gill-attachment",
+                    "gill-spacing", "gill-size", "gill-color", "stalk-shape", "stalk-surface-above-ring",
+                    "stalk-surface-below-ring", "stalk-color-above-ring", "stalk-color-below-ring", "veil-type",
+                    "veil-color", "ring-number", "ring-type", "spore-print-color", "population", "habitat"]
 
-    # scores = {'Isolation Forest': [0.5138461538461538, 0.5046153846153846, 0.5046153846153846, 0.5064615384615384,
-    #                                0.5095384615384615, 0.5132307692307693, 0.5027692307692307, 0.5132307692307693,
-    #                                0.512, 0.5021538461538462, 0.5046153846153846, 0.5113846153846154,
-    #                                0.5107692307692308, 0.5175384615384615, 0.4990769230769231, 0.5175384615384615,
-    #                                0.5212307692307693, 0.5101538461538462, 0.5107692307692308, 0.5101538461538462],
-    #           'Imputing with median': [0.5206153846153846, 0.5126153846153846, 0.5138461538461538, 0.5138461538461538,
-    #                                    0.5150769230769231, 0.5193846153846153, 0.5163076923076924, 0.5230769230769231,
-    #                                    0.5187692307692308, 0.512, 0.5052307692307693, 0.52, 0.5156923076923077,
-    #                                    0.5212307692307693, 0.5095384615384615, 0.5255384615384615, 0.5292307692307693,
-    #                                    0.5212307692307693, 0.5156923076923077, 0.5163076923076924],
-    #           'Iterative Imputer': [0.5052307692307693, 0.4916923076923077, 0.4929230769230769, 0.4929230769230769,
-    #                                 0.4990769230769231, 0.5033846153846154, 0.5003076923076923, 0.5064615384615384,
-    #                                 0.5015384615384615, 0.49846153846153846, 0.49415384615384617, 0.5033846153846154,
-    #                                 0.5009230769230769, 0.5083076923076923, 0.49538461538461537, 0.5083076923076923,
-    #                                 0.5101538461538462, 0.5046153846153846, 0.5027692307692307, 0.5033846153846154],
-    #           'KNN Imputer': [0.5132307692307693, 0.5046153846153846, 0.5058461538461538, 0.5064615384615384,
-    #                           0.5083076923076923, 0.5132307692307693, 0.5089230769230769, 0.5163076923076924,
-    #                           0.5101538461538462, 0.5089230769230769, 0.5046153846153846, 0.5138461538461538,
-    #                           0.5169230769230769, 0.5212307692307693, 0.504, 0.5187692307692308, 0.5218461538461538,
-    #                           0.5126153846153846, 0.5132307692307693, 0.5107692307692308]}
-    # for key1 in scores:
-    #     for key2 in scores:
-    #         if key1 != key2:
-    #             p_val = clustering.u_test(scores[key1], scores[key2])
-    #             if p_val < 0.05:
-    #                 print(key1 + "is better than " + key2 + "with p-value = " + str(p_val) + "<<0.05")
+    df = pd.DataFrame(imputed_data, columns=column_names)
+    odor = df["odor"]
+    # since we want to predict the mushrooms' odor it's needed to drop this feature from the df
+    X = df.drop(["odor"], axis=1)
+    scaler = MinMaxScaler()
+    X = scaler.fit_transform(X)
+    pd.DataFrame(X).to_csv("missing data/imputed_data.csv")
+    real_data = pd.DataFrame(data, columns=column_names)
+    real_data = real_data.drop(["odor"], axis=1)
+    real_data = scaler.transform(real_data)
+    real_data_list = []
+    real_labels_list = []
+    for i in range(20):
+        real_data_i, _, real_labels_i, _ = train_test_split(real_data, real_labels, train_size=0.48)
+        real_data_list.append(real_data_i)
+        real_labels_list.append(real_labels_i)
+    print("Isolation Forest")
+    for i in range(20):
+        clf = SVC(C=0.8)
+        clf.fit(real_data_list[i], real_labels_list[i])
+        labels = clf.predict(X)
+        print(f1_score(odor, labels, average='micro'))
+        # print(clf.score(X, odor))
+
+    print("Imputing with median")
+    df = imputed_with_median
+    odor = df["odor"]
+    X = df.drop(["odor"], axis=1)
+    X = scaler.transform(X)
+    for i in range(20):
+        clf = SVC(C=0.8)
+        clf.fit(real_data_list[i], real_labels_list[i])
+        labels = clf.predict(X)
+        print(f1_score(odor, labels, average='micro'))
+        # print(clf.score(X, odor))
+
+    print("Iterative Imputer")
+    imp_mean = IterativeImputer()
+    imp_mean.fit(data_as_is)
+    imputed_data = imp_mean.transform(missing_data_as_is)
+    df = pd.DataFrame(imputed_data, columns=column_names)
+    odor = df["odor"]
+    odor = odor.astype('int')
+    # print(odor)
+    # print(odor.dtype)
+    # since we want to predict the mushrooms' odor it's needed to drop this feature from the df
+    X = df.drop(["odor"], axis=1)
+    X = scaler.transform(X)
+    for i in range(20):
+        clf = SVC(C=0.8)
+        clf.fit(real_data_list[i], real_labels_list[i])
+        labels = clf.predict(X)
+        print(f1_score(odor, labels, average='micro'))
+        # print(clf.score(X, odor))
+
+    print("KNN Imputer")
+    imp_mean = KNNImputer()
+    imp_mean.fit(data_as_is)
+    imputed_data = imp_mean.transform(missing_data_as_is)
+    df = pd.DataFrame(imputed_data, columns=column_names)
+    odor = df["odor"]
+    odor = odor.astype('int')
+    # since we want to predict the mushrooms' odor it's needed to drop this feature from the df
+    X = df.drop(["odor"], axis=1)
+    X = scaler.transform(X)
+    for i in range(20):
+        clf = SVC(C=0.8)
+        clf.fit(real_data_list[i], real_labels_list[i])
+        labels = clf.predict(X)
+        print(f1_score(odor, labels, average='micro'))
+        # print(clf.score(X, odor))
+
+    scores = {'Isolation Forest': [0.5138461538461538, 0.5046153846153846, 0.5046153846153846, 0.5064615384615384,
+                                   0.5095384615384615, 0.5132307692307693, 0.5027692307692307, 0.5132307692307693,
+                                   0.512, 0.5021538461538462, 0.5046153846153846, 0.5113846153846154,
+                                   0.5107692307692308, 0.5175384615384615, 0.4990769230769231, 0.5175384615384615,
+                                   0.5212307692307693, 0.5101538461538462, 0.5107692307692308, 0.5101538461538462],
+              'Imputing with median': [0.5206153846153846, 0.5126153846153846, 0.5138461538461538, 0.5138461538461538,
+                                       0.5150769230769231, 0.5193846153846153, 0.5163076923076924, 0.5230769230769231,
+                                       0.5187692307692308, 0.512, 0.5052307692307693, 0.52, 0.5156923076923077,
+                                       0.5212307692307693, 0.5095384615384615, 0.5255384615384615, 0.5292307692307693,
+                                       0.5212307692307693, 0.5156923076923077, 0.5163076923076924],
+              'Iterative Imputer': [0.5052307692307693, 0.4916923076923077, 0.4929230769230769, 0.4929230769230769,
+                                    0.4990769230769231, 0.5033846153846154, 0.5003076923076923, 0.5064615384615384,
+                                    0.5015384615384615, 0.49846153846153846, 0.49415384615384617, 0.5033846153846154,
+                                    0.5009230769230769, 0.5083076923076923, 0.49538461538461537, 0.5083076923076923,
+                                    0.5101538461538462, 0.5046153846153846, 0.5027692307692307, 0.5033846153846154],
+              'KNN Imputer': [0.5132307692307693, 0.5046153846153846, 0.5058461538461538, 0.5064615384615384,
+                              0.5083076923076923, 0.5132307692307693, 0.5089230769230769, 0.5163076923076924,
+                              0.5101538461538462, 0.5089230769230769, 0.5046153846153846, 0.5138461538461538,
+                              0.5169230769230769, 0.5212307692307693, 0.504, 0.5187692307692308, 0.5218461538461538,
+                              0.5126153846153846, 0.5132307692307693, 0.5107692307692308]}
+    for key1 in scores:
+        for key2 in scores:
+            if key1 != key2:
+                p_val = clustering.u_test(scores[key1], scores[key2])
+                if p_val < 0.05:
+                    print(key1 + "is better than " + key2 + "with p-value = " + str(p_val) + "<<0.05")
 
     # plot best
     print("Imputing with median")
