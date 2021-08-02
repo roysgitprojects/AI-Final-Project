@@ -56,8 +56,6 @@ from itertools import combinations
 import networkx as nx
 from xgboost import XGBClassifier
 
-np.set_printoptions(threshold=np.inf)
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -66,9 +64,10 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, class
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
-np.set_printoptions(threshold=np.inf)
 import time
 from datetime import timedelta
+
+np.set_printoptions(threshold=np.inf)
 
 
 def read_dimension_reduction_results_to_lil(method):
@@ -108,11 +107,11 @@ pd.DataFrame(X).to_csv("ordinal_mushrooms_data.csv")
 print("data set is:")
 
 fig = plt.figure()
-plt.suptitle(("Confusin matrix analysis for svm rbf classification on original data and visualized by CMDS"),
+plt.suptitle("Confusion matrix analysis for SVM RBF classification on the original data visualized by CMDS",
              fontsize=20, fontweight='bold')
 ax1 = fig.add_subplot(1, 3, 1)
 fig.set_size_inches(18, 7)
-# creatint the confusing matrix on original data
+# creating the confusing matrix on original data
 X_train, X_test, Y_train, Y_test = train_test_split(X, odor, random_state=0, test_size=0.52)
 clf = make_pipeline(StandardScaler(), SVC(kernel='rbf', C=8 * 0.1, gamma='auto')).fit(X_train, Y_train)
 Y_total_pred = clf.predict(X)
@@ -120,7 +119,7 @@ array = confusion_matrix(odor, Y_total_pred)
 df_cm = pd.DataFrame(array, range(9), range(9))
 # plt.figure(figsize = (10,7))
 sn.set(font_scale=1.3)  # for label size
-sn.heatmap(df_cm, annot=True, annot_kws={"size": 8}, fmt='d', linecolor='blue')  # font size
+sn.heatmap(df_cm, annot=True, annot_kws={"size": 8}, fmt='d', linecolor='blue', ax=ax1)  # font size
 plt.xlabel('Predicted class')
 plt.ylabel('Actual class')
 
@@ -150,7 +149,7 @@ plt.show()
 
 fig = plt.figure()
 plt.suptitle((
-    "Analysis for Multi layer Perceptron classification on data after CMDS dimension reduction method"),
+    "Analysis for Multi Layer Perceptron classification on the data after CMDS dimension reduction"),
     fontweight='bold')
 ax1 = fig.add_subplot(1, 3, 1)
 fig.set_size_inches(18, 7)
@@ -160,7 +159,7 @@ Y = clf.predict(reducedX)
 array = confusion_matrix(odor, Y)
 df_cm = pd.DataFrame(array, range(9), range(9))
 sn.set(font_scale=1.4)  # for label size
-sn.heatmap(df_cm, annot=True, annot_kws={"size": 8}, fmt='d', linecolor='blue')  # font size
+sn.heatmap(df_cm, annot=True, annot_kws={"size": 8}, fmt='d', linecolor='blue', ax=ax1)  # font size
 plt.xlabel('Predicted class')
 plt.ylabel('Actual class')
 Y_total_pred = clf.predict(reducedX)
