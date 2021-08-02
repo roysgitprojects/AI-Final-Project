@@ -12,7 +12,7 @@ import main_file
 DIM = 3
 
 
-def apply_dimension_reduction_method(data, method):
+def apply_dimension_reduction_method(data, method, plot=True):
     # methods = ["PCA", "CMDS", "NCMDS", "ICA", "ISOMAP", "LLE", "LAPLACIAN EIGENMAPS"]
     if method == "PCA":
         reduced_data = apply_pca(data)
@@ -32,27 +32,29 @@ def apply_dimension_reduction_method(data, method):
         raise Exception("No such dimension reduction algorithm")
     if DIM == 3:
         x, y, z = zip(*reduced_data)
-        fig = plt.figure()
-        # ax = fig.add_subplot(111)
-        ax = plt.axes(projection="3d")
-        plt.title(method)
-        ax.set_xlabel('First Principal Component')
-        ax.set_ylabel('Second Principal Component')
-        ax.set_zlabel('Third Principal Component')
-        ax.scatter3D(x, y, z, c=main_file.get_real_labels(), alpha=0.8, s=8)
+        if plot:
+            fig = plt.figure()
+            # ax = fig.add_subplot(111)
+            ax = plt.axes(projection="3d")
+            plt.title(method)
+            ax.set_xlabel('First Principal Component')
+            ax.set_ylabel('Second Principal Component')
+            ax.set_zlabel('Third Principal Component')
+            ax.scatter3D(x, y, z, c=main_file.get_real_labels(), alpha=0.8, s=8)
         with open("dimension_reduction/" + method + "_3d.csv", "w", newline="") as f:
             writer = csv.writer(f)
             writer.writerows([x, y, z])
     else:
         x, y = zip(*reduced_data)
-        fig = plt.figure()
-        # ax = fig.add_subplot(111)
-        ax = plt.axes()
-        plt.title(method)
-        ax.set_xlabel('First Principal Component')
-        ax.set_ylabel('Second Principal Component')
-        ax.scatter(x, y, c=main_file.get_real_labels(), alpha=0.8, s=8)
-    # plt.show()
+        if plot:
+            fig = plt.figure()
+            # ax = fig.add_subplot(111)
+            ax = plt.axes()
+            plt.title(method)
+            ax.set_xlabel('First Principal Component')
+            ax.set_ylabel('Second Principal Component')
+            ax.scatter(x, y, c=main_file.get_real_labels(), alpha=0.8, s=8)
+            # plt.show()
     return reduced_data
 
 

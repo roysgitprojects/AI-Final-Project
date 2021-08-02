@@ -1,0 +1,3 @@
+second approachis better than first approachwith p-value = 4.003272516972358e-09<<0.05
+second approachis better than third approachwith p-value = 7.154265625721916e-08<<0.05
+third approachis better than first approachwith p-value = 4.003272516972358e-09<<0.05

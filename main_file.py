@@ -55,6 +55,31 @@ def get_real_labels():
     return labels
 
 
+def plot_boxplot():
+    """
+    Plot a boxplot to visualize anomalies
+    :return: None
+    """
+    column_names = ["class", "cap-shape", "cap-surface", "cap-color", "bruises", "gill-attachment",
+                    "gill-spacing", "gill-size", "gill-color", "stalk-shape", "stalk-surface-above-ring",
+                    "stalk-surface-below-ring", "stalk-color-above-ring", "stalk-color-below-ring", "veil-type",
+                    "veil-color", "ring-number", "ring-type", "spore-print-color", "population", "habitat"]
+    data = pd.DataFrame(get_dataset(), columns=column_names)
+    plt.figure(figsize=(10, 7))
+    plt.title("Box Plot", fontdict={'fontsize': 24})
+    sns.boxplot(data=data)
+    plt.xticks(rotation=20, ha='right')
+    plt.tight_layout()
+    plt.show()
+
+
+def read_nmi(path):
+    with open(path) as f:
+        reader = csv.reader(f)
+        data = list(reader)
+    return [float(nmi) for sublist in data for nmi in sublist]
+
+
 if __name__ == '__main__':
     X, odor = prepare_dataset()
     points = X
@@ -67,6 +92,7 @@ if __name__ == '__main__':
     clustering_methods = ['K means', 'GMM', 'Fuzzy C Means', 'Hierarchical',
                           'DBSCAN']  # ['K means', 'GMM', 'Fuzzy C Means', 'Hierarchical', 'Spectral', 'DBSCAN']
     linkages = ['ward', 'average', 'complete', 'single']
+    # plot_boxplot()
     # for clustering_method in clustering_methods:
     #     if clustering_method == "Hierarchical":
     #         for linkage in linkages:
@@ -98,9 +124,21 @@ if __name__ == '__main__':
 
     # for i in range(20):
     #     print(normalized_mutual_info_score(odor, clustering.read_clustering_results(method="DBSCAN", eps10=10)[i]))
-
+    # print("after dim red")
     # for method in methods:
     #     apply_dimension_reduction_method(X, method)  # , odor)
+
+    # plot best clustering
+    # list_of_xyz = read_dimension_reduction_results_to_lil("PCA")
+    # [x, y, z] = list_of_xyz
+    # reduced_data_for_visualization = (np.array([np.array(i) for i in list_of_xyz])).T
+    # labels = clustering.cluster(points=X, method='DBSCAN', eps=1, n_clusters=0)
+    # n_clusters = len(np.unique(labels))
+    # print(labels)
+    # print(n_clusters)
+    # clustering.plot_best_clustering_and_silhouette_score(X, clustering_method="DBSCAN", n_clusters=n_clusters,
+    #                                                      cluster_labels=labels, real_labels=odor,
+    #                                                      reducedX=reduced_data_for_visualization)
 
     # Third approach
     # for method in methods:
@@ -175,10 +213,34 @@ if __name__ == '__main__':
     #                                                                                              dim_red_method][key],
     #                                                                                          dim_red_method=dim_red_method)
     # clustering.compare_silhouette_scores_all_methods_best_params(best_scores_dict)
-    for i in range(20):
-        print(normalized_mutual_info_score(odor, clustering.read_clustering_results(method="K means", n_clusters=11,
-                                                                                    dim_red_method="PCA")[i]))
-
+    #
+    # for i in range(20):
+    #     print(normalized_mutual_info_score(odor, clustering.read_clustering_results(method="K means", n_clusters=11,
+    #                                                                                 dim_red_method="PCA")[i]))
+    #
+    # plot best clustering
+    # list_of_xyz = read_dimension_reduction_results_to_lil("PCA")
+    # [x, y, z] = list_of_xyz
+    # X = (np.array([np.array(i) for i in list_of_xyz])).T
+    # labels = clustering.cluster(points=X, method='K means', n_clusters=11)
+    # n_clusters = 11
+    # print(labels)
+    # print(n_clusters)
+    # clustering.plot_best_clustering_and_silhouette_score(X, clustering_method="K means", n_clusters=n_clusters,
+    #                                                      cluster_labels=labels, real_labels=odor,
+    #                                                      reducedX=X)
+    # Compare approaches
+    nmi_first_approach = read_nmi("compare approaches/first_approach_nmi_best.txt")
+    nmi_second_approach = read_nmi("compare approaches/second_approach_nmi_best.txt")
+    nmi_third_approach = read_nmi("compare approaches/third_approach_nmi_best_classify.txt")
+    nmi_scores = {"first approach": nmi_first_approach, "second approach": nmi_second_approach,
+                  "third approach": nmi_third_approach}
+    for key1 in nmi_scores:
+        for key2 in nmi_scores:
+            if key1 != key2:
+                p_val = clustering.u_test(nmi_scores[key1], nmi_scores[key2])
+                if p_val < 0.05:
+                    print(key1 + "is better than " + key2 + "with p-value = " + str(p_val) + "<<0.05")
 # labels = nn.main(X, odor)
 # for method in methods:
 #     list_of_xyz = read_dimension_reduction_results_to_lil(method)

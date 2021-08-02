@@ -1,0 +1,6 @@
+Isolation Forestis better than Iterative Imputerwith p-value = 8.242255576904895e-05<<0.05
+Imputing with medianis better than Isolation Forestwith p-value = 2.8918313236365848e-05<<0.05
+Imputing with medianis better than Iterative Imputerwith p-value = 3.8400560122697506e-08<<0.05
+Imputing with medianis better than KNN Imputerwith p-value = 0.000303896265763265<<0.05
+KNN Imputeris better than Isolation Forestwith p-value = 0.043780342905393066<<0.05
+KNN Imputeris better than Iterative Imputerwith p-value = 2.0516239772237107e-06<<0.05
